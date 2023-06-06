@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;07099ea7d907106be7990ad9db491f2a",
+    "spider": "./jar/fan.jar;md5;8e5f048383b35728c4f1bb21c708c0c7",
     "sites": [
         {
             "key": "YQK_spider",
@@ -78,6 +78,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
+        {"key":"csp_Miaobo","name":"🔥秒播┃2K","type":3,"api":"csp_Miaobo","searchable":1,"quickSearch":1,"filterable":1},
         {
             "key": "csp_WoGG",
             "name": "👽玩偶哥哥┃4K",
@@ -86,7 +87,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://o.ryuan.top/json/token.txt"
+            "ext": "https://o.ryuan.top/json/token.txt$$$http://tvfan.xxooo.cf/"
         },
         {
             "key": "csp_BuLei",
@@ -96,7 +97,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://饭太硬.ga/$$$auto$$$JIUSUI$$$JIUSUI"
+            "ext": "http://饭太硬.ml/$$$auto$$$JIUSUI$$$JIUSUI"
         },
         {
             "key": "csp_AppMr",
@@ -155,7 +156,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "SldZWXFaWkhXTU1sTlpadFNSSyN0elRJdzlMQVJSQ00=$$$Q1ppbkoxUzdvNnNZbU1WVw==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="
+            "ext": "U2c3aDRRb0xMQnpWVjRhY1NSSyNIdW8wTkVCZG91ZWw=$$$U3FYMms0cWJZR2kzbzZzWQ==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="
         },
         {
             "key": "csp_apple",
