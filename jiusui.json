@@ -1,15 +1,10 @@
 {
     "lives": [
         {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "live",
-                    "urls": [
-                        "proxy://do=live&type=txt&ext=./live/iptv.m3u"
-                    ]
-                }
-            ]
+            "name": "tvlive",
+            "type": 0,
+            "url": "./live/iptv.m3u",
+            "playerType": 1
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
@@ -106,6 +101,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://饭太硬.ml/$$$auto$$$JIUSUI$$$JIUSUI"
+        },
+        {
+           "key": "熊熊",
+           "name": "熊熊",
+           "type": 1,
+           "api": "https://v.3412.net.cn/macapi.php/provide/vod",
+           "playUrl": "https://player.i597.cc/?url=",
+           "searchable": 1,
+           "changeable": 1
         },
         {
             "key": "csp_AppMr",

@@ -108,6 +108,15 @@
             "ext": "http://饭太硬.ml/$$$auto$$$JIUSUI$$$JIUSUI"
         },
         {
+           "key": "熊熊",
+           "name": "熊熊",
+           "type": 1,
+           "api": "https://v.3412.net.cn/macapi.php/provide/vod",
+           "playUrl": "https://player.i597.cc/?url=",
+           "searchable": 1,
+           "changeable": 1
+        },
+        {
             "key": "csp_AppMr",
             "name": "👻明明┃影视",
             "type": 3,
