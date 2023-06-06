@@ -778,7 +778,7 @@
         },
         {
             "key": "Yisou",
-            "name": "🎯易搜��搜索",
+            "name": "🎯易搜┃搜索",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
