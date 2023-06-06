@@ -6,7 +6,7 @@
                 {
                     "name": "live",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=./live/iptv.m3u"
+                        "proxy://do=live&type=txt&ext=./live/sxg.m3u"
                     ]
                 }
             ]

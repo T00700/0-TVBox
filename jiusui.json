@@ -3,7 +3,7 @@
         {
             "name": "tvlive",
             "type": 0,
-            "url": "./live/iptv.m3u",
+            "url": "./live/sxg.m3u",
             "playerType": 1
         }
     ],
