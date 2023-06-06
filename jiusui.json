@@ -78,7 +78,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {"key":"csp_Miaobo","name":"🔥秒播┃2K","type":3,"api":"csp_Miaobo","searchable":1,"quickSearch":1,"filterable":1},
+        {
+            "key": "csp_Miaobo",
+            "name": "🔥秒播┃2K",
+            "type": 3,
+            "api": "csp_Miaobo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "csp_WoGG",
             "name": "👽玩偶哥哥┃4K",
@@ -766,7 +774,7 @@
         },
         {
             "key": "Yisou",
-            "name": "🎯易搜┃搜索",
+            "name": "🎯易搜��搜索",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -815,7 +823,7 @@
             "ext": "https://o.ryuan.top/json/token.txt"
         }
     ],
-"parses": [
+    "parses": [
         {
             "name": "解析聚合",
             "type": 3,
@@ -842,55 +850,90 @@
             "url": "https://api.cygc.xyz/analysis/?url="
         }
     ],
-    "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": ["8.8.4.4","8.8.8.8"]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": ["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": ["94.140.14.140","94.140.14.141"]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": ["84.200.69.80","84.200.70.40"]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": ["9.9.9.9","149.112.112.112"]
-    }
-  ],
-  "rules": [
-    {
-      "name": "量子廣告",
-      "hosts": ["vip.lz","hd.lz"],
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
-    },
-    {
-      "name": "非凡廣告",
-      "hosts": ["vip.ffzy","hd.ffzy"],
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
-    },
-    {
-      "name": "火山嗅探",
-      "hosts": ["huoshan.com"],
-      "regex": ["item_id="]
-    },
-    {
-      "name": "抖音嗅探",
-      "hosts": ["douyin.com"],
-      "regex": ["is_play_url="]
-    }
-  ],
+     "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "name": "量子廣告",
+            "hosts": [
+                "vip.lz",
+                "hd.lz"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "非凡廣告",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "火山嗅探",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音嗅探",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        }
+    ],
     "flags": [
         "youku",
         "qq",
@@ -936,7 +979,7 @@
         "奇艺视频",
         "优酷视频",
         "芒果视频",
-        "乐视视频"
+        "乐视视��"
     ],
     "ijk": [
         {

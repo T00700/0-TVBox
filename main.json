@@ -78,7 +78,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {"key":"csp_Miaobo","name":"🔥秒播┃2K","type":3,"api":"csp_Miaobo","searchable":1,"quickSearch":1,"filterable":1},
+        {
+            "key": "csp_Miaobo",
+            "name": "🔥秒播┃2K",
+            "type": 3,
+            "api": "csp_Miaobo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "csp_WoGG",
             "name": "👽玩偶哥哥┃4K",
@@ -766,7 +774,7 @@
         },
         {
             "key": "Yisou",
-            "name": "🎯易搜┃搜索",
+            "name": "🎯易搜��搜索",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -887,7 +895,7 @@
         "奇艺视频",
         "优酷视频",
         "芒果视频",
-        "乐视视频"
+        "乐视视��"
     ],
     "ijk": [
         {
