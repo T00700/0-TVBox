@@ -86,7 +86,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "csp_BuLei",
@@ -741,7 +741,7 @@
             "searchable": 1,
             "filterable": 0,
             "changeable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "zhaozy",
@@ -751,7 +751,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://token.ryuan.top/token$$$JIUSUI$$$JIUSUI"
+            "ext": "https://o.ryuan.top/json/token.txt$$$JIUSUI$$$JIUSUI"
         },
         {
             "key": "Upyunso",
@@ -761,7 +761,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "Yisou",
@@ -771,7 +771,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "TuGou",
@@ -781,7 +781,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "Alips",
@@ -791,7 +791,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "PanSearch",
@@ -801,7 +801,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         },
         {
             "key": "push_agent",
@@ -811,7 +811,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "https://token.ryuan.top/token"
+            "ext": "https://o.ryuan.top/json/token.txt"
         }
     ],
     "parses": [
