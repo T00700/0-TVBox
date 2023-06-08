@@ -1,10 +1,15 @@
 {
     "lives": [
         {
-            "name": "tvlive",
-            "type": 0,
-            "url": "./live/sxg.m3u",
-            "playerType": 1
+            "group": "redirect",
+            "channels": [
+                {
+                    "name": "live",
+                    "urls": [
+                        "proxy://do=live&type=txt&ext=./live/sxg.m3u"
+                    ]
+                }
+            ]
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
@@ -103,13 +108,13 @@
             "ext": "http://饭太硬.ml/$$$auto$$$JIUSUI$$$JIUSUI"
         },
         {
-           "key": "熊熊",
-           "name": "熊熊",
-           "type": 1,
-           "api": "https://v.3412.net.cn/macapi.php/provide/vod",
-           "playUrl": "https://player.i597.cc/?url=",
-           "searchable": 1,
-           "changeable": 1
+            "key": "熊熊",
+            "name": "熊熊",
+            "type": 1,
+            "api": "https://v.3412.net.cn/macapi.php/provide/vod",
+            "playUrl": "https://player.i597.cc/?url=",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "csp_AppMr",
@@ -249,6 +254,42 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "110c922de7d69804467fb83d3bb664b5",
+            "jar": "./jar/tang.jar;md5;e1495632d0dc73aaaac2d4fe5effa9e5"
+        },
+        {
+            "key": "WoGG",
+            "name": "玩偶",
+            "type": "3",
+            "api": "csp_Dora",
+            "changeable": "0",
+            "searchable": "1",
+            "quickSearch": "1",
+            "filterable": "1",
+            "ext": "195e30c1255970effc5480021f25fcd9",
+            "jar": "./jar/tang.jar;md5;e1495632d0dc73aaaac2d4fe5effa9e5"
+        },
+        {
+            "key": "heihei",
+            "name": "黑狗",
+            "type": "3",
+            "api": "csp_Dora",
+            "changeable": "0",
+            "searchable": "1",
+            "quickSearch": "1",
+            "filterable": "1",
+            "ext": "3bff500c8b1e06c052a1b0f1f7a62b45",
+            "jar": "./jar/tang.jar;md5;e1495632d0dc73aaaac2d4fe5effa9e5"
+        },
+        {
+            "key": "PP",
+            "name": "胖胖",
+            "type": "3",
+            "api": "csp_Dora",
+            "changeable": "0",
+            "searchable": "1",
+            "quickSearch": "1",
+            "filterable": "1",
+            "ext": "c41fdb671b20925c76fa9b6ff8bad027",
             "jar": "./jar/tang.jar;md5;e1495632d0dc73aaaac2d4fe5effa9e5"
         },
         {
