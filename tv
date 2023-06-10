@@ -256,7 +256,8 @@
             "ext": "110c922de7d69804467fb83d3bb664b5",
             "jar": "./jar/tang.jar;md5;728d224d92a05e0f5977be12d0a4f065"
         },
- {"key":"Star","name":"星星","type":"3","api":"csp_Dora","changeable":"0","searchable":"1","quickSearch":"1","filterable":"1","ext":"227debe32e2e299f5b71189055a92e93"},
+ {"key":"Star","name":"星星","type":"3","api":"csp_Dora","changeable":"0","searchable":"1","quickSearch":"1","filterable":"1","ext":"227debe32e2e299f5b71189055a92e93",
+            "jar": "./jar/tang.jar;md5;728d224d92a05e0f5977be12d0a4f065"},
         {
             "key": "WoGG",
             "name": "玩偶",
