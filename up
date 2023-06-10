@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;5ce71caef727c72289254da2925f7af5",
+    "spider": "./jar/fan.jar;md5;f29e9bc19d40c5d4cbb271ec41172c74",
     "sites": [
         {
             "key": "YQK_spider",
