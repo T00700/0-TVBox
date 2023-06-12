@@ -1,4 +1,5 @@
-{
+{   
+     "warningText": "NULL",
     "lives": [
     {
       "name": "TXT",
