@@ -190,7 +190,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://cms.maoyingshi.cc/api.php/app/"
+            "ext": "http://get.lfytyl.com/api.php/app/"
         },
         {
             "key": "csp_Sm",
@@ -239,7 +239,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
-            "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
+            "ext": "https://api123.adys.app/xgapp.php/v3/"
         },
         {
             "key": "AppTT",
