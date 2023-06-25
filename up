@@ -10,7 +10,7 @@
     }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;09baf4a03d362d96f0fc14085c343191",
+    "spider": "./jar/fan.jar;md5;6b685af783259513bc64b2c9de1c2b8a",
     "sites": [
         {
             "key": "YQK_spider",
@@ -160,7 +160,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.fantuanhd.com"
+            "ext": "https://www.fantuan3.com"
         },
         {
             "key": "csp_AppTT",
