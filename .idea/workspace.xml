@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7a817b-f12a-4eb9-bdc2-5970e3d1421c" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv" beforeDir="false" afterPath="$PROJECT_DIR$/tv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/up" beforeDir="false" afterPath="$PROJECT_DIR$/up" afterDir="false" />
-    </list>
+    <list default="true" id="da7a817b-f12a-4eb9-bdc2-5970e3d1421c" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,6 +149,7 @@
       <workItem from="1686623340241" duration="209000" />
       <workItem from="1686663898969" duration="62000" />
       <workItem from="1687575670166" duration="73000" />
+      <workItem from="1687760850092" duration="98000" />
     </task>
     <servers />
   </component>
