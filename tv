@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;6b685af783259513bc64b2c9de1c2b8a",
+    "spider": "./jar/fan.jar;md5;aa645ef076aff7c6b3b3239ee85a87c1",
     "sites": [
         {
             "key": "YQK_spider",
@@ -87,6 +87,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
+        {
+            "key": "探探",
+            "name": "🏵探探┃App",
+            "type": 3,
+            "api": "csp_YT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "csp_WoGG",
             "name": "👽玩偶哥哥┃4K",
@@ -186,14 +195,14 @@
             "filterable": 1
         },
         {
-            "key": "csp_如如",
-            "name": "🏵如如┃App",
-            "type": 3,
+            "key": "迪迪",
+            "name": "😎迪迪┃App",
             "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
+            "type": 3,
             "filterable": 1,
-            "ext": "http://get.lfytyl.com/api.php/app/"
+            "quickSearch": 1,
+            "searchable": 1,
+            "ext": "https://api123.adys.app/xgapp.php/v3/"
         },
         {
             "key": "csp_Sm",
@@ -235,14 +244,15 @@
             "ext": "https://www.6080yy3.com/"
         },
         {
-            "key": "csp_黄黄",
-            "name": "😎黄黄┃App",
-            "api": "csp_AppYsV2",
+            "key": "酷酷",
+            "name": "💡酷酷┃App",
             "type": 3,
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "ext": "https://api123.adys.app/xgapp.php/v3/"
+            "api": "csp_AppYsV2",
+            "ext": "http://ys.realdou.cn/api.php/app/",
+            "categories": [
+                "4K电影",
+                "4K电视剧"
+            ]
         },
         {
             "key": "AppTT",
