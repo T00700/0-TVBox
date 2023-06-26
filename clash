@@ -1,3 +1,10 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：2023-06-26 20:17:34
+# 使用模版：V2RaySE 默认模版
+# 节点数量：57
+####################################
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -70,6 +77,7 @@ proxies:
   - {"name":"🇺🇸丨美国丨54","type":"vmess","server":"198.2.196.10","port":43389,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸丨美国丨55","type":"vmess","server":"104.24.205.136","port":8880,"cipher":"auto","uuid":"dbb471fd-c7ef-4599-871c-b4ed72cca498","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer01","headers":{"host":"txx.vtcss.top"}}}
   - {"name":"🇺🇸丨美国丨56","type":"vmess","server":"104.16.221.169","port":8880,"cipher":"auto","uuid":"dbb471fd-c7ef-4599-871c-b4ed72cca498","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer01","headers":{"host":"txx.vtcss.top"}}}
+  - {"name":"🇨🇳丨中国丨BL丨1","type":"ssr","server":"hkt-imsbiz-01.xm1s.top","port":458,"password":"MKaQhd","cipher":"dummy","obfs":"plain","protocol":"auth_chain_b","obfs-param":"wns.windows.com","protocol-param":"2653:VPduYz","group":"SSRProvider"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -132,6 +140,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -194,6 +203,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -256,6 +266,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -317,6 +328,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -378,6 +390,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -439,6 +452,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -517,6 +531,7 @@ proxy-groups:
       - 🇺🇸丨美国丨54
       - 🇺🇸丨美国丨55
       - 🇺🇸丨美国丨56
+      - 🇨🇳丨中国丨BL丨1
 
 rules:
 # 本地/局域网地址
