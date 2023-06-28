@@ -10,7 +10,7 @@
     }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;aa645ef076aff7c6b3b3239ee85a87c1",
+    "spider": "./jar/fan.jar;md5;6fb0a205b857f35e165a5f8cb2f8056d",
     "sites": [
         {
             "key": "YQK_spider",
@@ -535,7 +535,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://tv.libvio.cc/"
+            "ext": "https://www.libvio.fun/"
         },
         {
             "key": "csp_Bd",
@@ -836,16 +836,6 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "./json/token.txt+4k|fhd|auto$$$__51vcke__JkIGvjjs25ETn0wz=3002f7d5-15aa-5d40-bfe3-766e79daeeba; __51vuft__JkIGvjjs25ETn0wz=1686621857715; satoken=186e1f8a-85e1-414b-86cb-c40834f498bc; __51uvsct__JkIGvjjs25ETn0wz=2; __vtins__JkIGvjjs25ETn0wz=%7B%22sid%22%3A%20%22a109f978-2d26-5324-a1c3-32ca9749595f%22%2C%20%22vd%22%3A%202%2C%20%22stt%22%3A%2014513%2C%20%22dr%22%3A%2014513%2C%20%22expires%22%3A%201686665875878%2C%20%22ct%22%3A%201686664075878%7D"
-        },
-        {
-            "key": "TuGou",
-            "name": "😿土狗┃搜索",
-            "type": 3,
-            "api": "csp_TuGou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "./json/token.txt+4k|fhd|auto"
         },
         {
             "key": "Alips",
