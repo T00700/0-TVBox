@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;6fb0a205b857f35e165a5f8cb2f8056d",
+    "spider": "./jar/fan.jar;md5;a5eaab0a824b174e0024d75e1d8731ff",
     "sites": [
         {
             "key": "YQK_spider",
@@ -117,13 +117,13 @@
             "ext": "http://饭太硬.ml/$$$auto$$$JIUSUI$$$JIUSUI"
         },
         {
-            "key": "熊熊",
-            "name": "熊熊",
-            "type": 1,
-            "api": "https://v.3412.net.cn/macapi.php/provide/vod",
-            "playUrl": "https://player.i597.cc/?url=",
+            "key": "陌陌",
+            "name": "🍄陌陌┃直连",
+            "type": 3,
+            "api": "csp_MmYs",
             "searchable": 1,
-            "changeable": 1
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_AppMr",
