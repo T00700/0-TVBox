@@ -891,11 +891,6 @@
             "name": "手动解析",
             "type": 1,
             "url": "http://json.84jia.com/api/?key=vDI1zsMt67lE1dJBi7&url="
-        },
-        {
-            "name": "小城解析",
-            "type": 1,
-            "url": "https://api.cygc.xyz/analysis/?url="
         }
     ],
     "flags": [
