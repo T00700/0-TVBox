@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "https://qiu.moe/a723",
-    "spider": "./jar/fan.jar;md5;a5eaab0a824b174e0024d75e1d8731ff",
+    "spider": "./jar/fan.jar;md5;88c55af008dbd9344f3cf95e6f426a2a",
     "sites": [
         {
             "key": "YQK_spider",
@@ -85,8 +85,18 @@
       "api": "csp_DuoX",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+            "ext": "http://1.117.111.78:93/home/api?type=ys&uid=230629&key=公众号【影视范】&url="
     },
+        {
+            "key": "csp_YGP",
+            "name": "🚀新片┃速递",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
         {
             "key": "探探",
             "name": "🏵探探┃App",
