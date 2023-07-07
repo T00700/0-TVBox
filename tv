@@ -117,16 +117,6 @@
             "ext": "./json/token.txt+4k|fhd|auto$$$https://wogg.xyz/"
         },
         {
-            "key": "csp_BuLei",
-            "name": "💢布雷┃直连",
-            "type": 3,
-            "api": "csp_BuLei",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://饭太硬.ml/$$$auto$$$JIUSUI$$$JIUSUI"
-        },
-        {
             "key": "陌陌",
             "name": "🍄陌陌┃直连",
             "type": 3,
