@@ -27,7 +27,7 @@
             "key": "js豆瓣",
             "name": "🍔豆瓣┃热播┃DR",
             "type": 3,
-            "api": "./js/drpy.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/drpy.js",
             "searchable": 0,
             "quickSearch": 0,
