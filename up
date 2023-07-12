@@ -230,6 +230,22 @@
             "quickSearch": 1,
             "filterable": 1
         },
+    {
+      "key": "drpy_js_netlify",
+      "name": "荐片",
+      "type": 3,
+      "playerType":1,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/推荐.js"
+    },
+    {
+      "key": "drpy_js_荐片",
+      "name": "荐片[JS]",
+      "type": 3,
+      "playerType":1,
+      "api": "https://qu.ax/GpPB.js",
+      "ext": "https://qu.ax/baxP.js"
+    },
         {
             "key": "csp_Xinsj",
             "name": "🐼新视觉┃SP",
