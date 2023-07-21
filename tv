@@ -410,7 +410,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/Nmys.json"
+            "ext": "./json/nmys.json"
         },
         {
             "key": "csp_xpath_独播库",
