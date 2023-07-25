@@ -3,11 +3,15 @@
   "drives": [
     {
       "name": "小雅",
-      "server": "http://alist.xiaoya.pro"
+      "server": "http://xiaoya.ryuan.top/"
     },
     {
        "name":"JIUSUI",
-       "server":"http://xiaoya.ryuan.top/"
+       "server":"http://alist.ryuan.top/",
+       "login": {
+        "username": "酒岁",
+        "password": "yuanrui"
+      }
     }
   ]
 }
