@@ -439,7 +439,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "http://饭太硬.top/x/json/bilibili.json"
+            "ext": "./json/bibilili.json"
         },
         {
             "key": "csp_xpath_kuqimv",
