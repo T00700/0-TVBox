@@ -9,7 +9,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
     ],
-    "wallpaper": "https://qiu.moe/a723",
+    "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "spider": "./jar/fan.jar;md5;666ca7d5468412592cd65e5a22376dc6",
     "sites": [
         {
