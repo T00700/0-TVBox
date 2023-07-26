@@ -438,8 +438,8 @@
             "api": "csp_Bili",
             "searchable": 1,
             "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/bilibili.json"
+            "changeable": 0,
+            "ext": "http://饭太硬.top/x/json/bilibili.json"
         },
         {
             "key": "csp_xpath_kuqimv",
