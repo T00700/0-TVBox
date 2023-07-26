@@ -455,6 +455,15 @@
             "ext": "./json/酷奇MV.json"
         },
         {
+            "key": "MV_vod",
+            "name": "🎸明星┃MV",
+            "type": 1,
+            "api": "https://mv.wogg.link/mv/vod",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "Czsapp",
             "name": "厂长",
             "type": "3",
