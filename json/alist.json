@@ -11,7 +11,12 @@
        "login": {
         "username": "酒岁",
         "password": "yuanrui"
-      }
     }
+  },
+    {
+        "name":"木偶",
+        "server":"https://abnormalize.icu/"
+    }
+    
   ]
 }
