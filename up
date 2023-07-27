@@ -10,7 +10,7 @@
     }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;50bc219c741872bc7a60e79c7584edb4",
+    "spider": "./jar/fan.jar;md5;91b04592e14b3cc30f34c1324a59e8ad",
     "sites": [
         {
             "key": "YQK_spider",
