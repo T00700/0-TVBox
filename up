@@ -455,7 +455,7 @@
             "key": "MV_vod",
             "name": "🎸明星┃MV",
             "type": 1,
-            "api": "https://mv.hi143.repl.co/mv/vod",
+            "api": "http://mv.ryuan.top/mv/vod",
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0
