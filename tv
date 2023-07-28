@@ -47,6 +47,15 @@
             "ext": "./json/alist.json"
         },
         {
+            "key": "MV_vod",
+            "name": "🎸明星┃MV",
+            "type": 1,
+            "api": "http://mv.ryuan.top/mv/vod",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "csp_WoGG",
             "name": "👽玩偶哥哥┃4K",
             "type": 3,
@@ -453,15 +462,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./json/酷奇MV.json"
-        },
-        {
-            "key": "MV_vod",
-            "name": "🎸明星┃MV",
-            "type": 1,
-            "api": "http://mv.ryuan.top/mv/vod",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "Czsapp",
