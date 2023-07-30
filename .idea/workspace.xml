@@ -39,8 +39,9 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/JIUSUI",
+    "last_opened_file_path": "C:/Users/JIUSUI/OneDrive/桌面/demo/demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 11.0.0-M5">
     <configuration name="未命名" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:/Java/jdk" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -154,6 +155,7 @@
       <workItem from="1686663898969" duration="62000" />
       <workItem from="1687575670166" duration="73000" />
       <workItem from="1687760850092" duration="98000" />
+      <workItem from="1690724342442" duration="23000" />
     </task>
     <servers />
   </component>
