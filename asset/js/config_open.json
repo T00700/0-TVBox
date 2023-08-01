@@ -72,11 +72,7 @@
     },
     {
        "name":"👑JIUSUI",
-       "server":"http://alist.ryuan.top/"
-    },
-    {
-      "name": "🐋一只鱼",
-      "server": "https://alist.youte.ml"
+       "server":"http://alist.ryuan.top"
     },
     {
       "name": "🌊七米蓝",
@@ -100,7 +96,7 @@
     },
     {
         "name":"📯木偶",
-        "server":"https://abnormalize.icu/"
+        "server":"https://abnormalize.icu"
     }
         ]
       }
