@@ -14,7 +14,7 @@
     "sites": [
         {
             "key": "YQK_spider",
-            "name": "🐒酒岁┃TV┃🐵",
+            "name": "🐒酒岁┃TV",
             "api": "csp_YQKAPP",
             "type": 3,
             "filterable": 1,
@@ -25,7 +25,7 @@
         },
         {
             "key": "js豆瓣",
-            "name": "🍔豆瓣┃热播┃DR",
+            "name": "🍔豆瓣┃热播",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/drpy.js",
