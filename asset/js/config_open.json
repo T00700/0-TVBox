@@ -39,6 +39,20 @@
         "api": "assets://js/duboku_open.js"
       },
       {
+        "key": "xiaoya-tv",
+        "name": "小雅",
+        "type": 3,
+        "api": "assets://js/xiaoya.js",
+        "ext": "http://panel.ryuan.top/vod1"
+      },
+      {
+        "key": "bilibili",
+        "name": "BiliBili",
+        "type": 3,
+        "api": "assets://js/bilibili.js",
+        "ext": "http://panel.ryuan.top/bilibili"
+      },
+      {
         "key": "7",
         "name": "18AV",
         "type": 3,
@@ -52,10 +66,16 @@
       },
       {
         "key": "8",
-        "name": "泥巴",
+        "name": "泥巴丨墙",
         "type": 3,
         "api": "assets://js/nivod_op.js",
-        "ext":"888解忧愁"
+        "ext":  "888解忧愁"
+      },
+      {
+        "key": "11",
+        "name": "独播库丨墙",
+        "type": 3,
+        "api": "assets://js/duboku.js"
       }
     ]
   },
