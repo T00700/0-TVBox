@@ -2,16 +2,12 @@
   "vodPic": "https://s1.ax1x.com/2023/05/04/p9tgI81.png",
   "drives": [
     {
-      "name": "小雅",
+      "name": "👓小雅",
       "server": "http://xiaoya.ryuan.top/"
     },
     {
-       "name":"JIUSUI",
+       "name":"👑JIUSUI",
        "server":"http://alist.ryuan.top/"
-  },
-    {
-        "name":"木偶",
-        "server":"https://abnormalize.icu/"
     },
     {
       "name": "🐋一只鱼",
@@ -36,6 +32,10 @@
     {
       "name": "💦讯维云盘",
       "server": "https://pan.xwbeta.com"
+    },
+    {
+        "name":"📯木偶",
+        "server":"https://abnormalize.icu/"
     }
   ]
 }
