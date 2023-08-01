@@ -7,11 +7,7 @@
     },
     {
        "name":"JIUSUI",
-       "server":"http://alist.ryuan.top/",
-       "login": {
-        "username": "酒岁",
-        "password": "yuanrui"
-    }
+       "server":"http://alist.ryuan.top/"
   },
     {
         "name":"木偶",
