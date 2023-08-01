@@ -142,15 +142,10 @@
             "key": "酷酷",
             "name": "💡酷酷┃App",
             "type": 3,
-            "api": "csp_AppYsV2",
+            "api": "csp_Kuying",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0,
-            "ext": "http://cms.realdou.cn:62703/api.php/app/",
-            "categories": [
-                "4K电影",
-                "4K电视剧"
-            ]
+            "changeable": 1
         },
         {
             "key": "探探",
@@ -160,7 +155,7 @@
             "api": "csp_YT",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0
+            "changeable": 1
         },
         {
             "key": "csp_kuaikan",
