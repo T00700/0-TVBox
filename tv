@@ -76,16 +76,6 @@
             "ext": "./json/nmys.json"
         },
         {
-            "key": "csp_xpath_独播库",
-            "name": "🐲独播库",
-            "type": 3,
-            "api": "csp_XPathMacFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/duboku.json"
-        },
-        {
             "key": "陌陌",
             "name": "🍄陌陌┃直连",
             "type": 3,
@@ -644,6 +634,16 @@
             "filterable": "1",
             "ext": "b2e573ff040fcd54b50475660ee1a7d1",
             "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
+        },
+        {
+            "key": "csp_xpath_独播库",
+            "name": "🛫独播库丨飞",
+            "type": 3,
+            "api": "csp_XPathMacFilter",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/duboku.json"
         },
         {
             "key": "csp_Nbys",
