@@ -621,7 +621,7 @@
             "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
         },
         {
-            "key": "csp_xpath_独播库",
+            "key": "独播库",
             "name": "🛫独播库丨飞",
             "type": 3,
             "api": "csp_XPathMacFilter",
