@@ -274,6 +274,13 @@
             "ext": "https://www.ysgc.vip"
         },
         {
+            "key": "路飞ikanbot",
+            "name": "🐣爱看丨Bot",
+            "type": 3,
+            "api": "./js/lf_ikanbot3_2_min.js",
+            "ext": ""
+        },
+        {
             "key": "csp_SP33",
             "name": "📺三三┃解析",
             "type": 3,
