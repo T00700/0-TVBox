@@ -124,7 +124,13 @@
     {"key":"花椒","name":"🥈花椒","type":0,"api":"https://apihjzy.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":0},
     {"key":"酷豆","name":"🥈酷豆","type":1,"api":"https://kudouzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":0},
     {"key":"爱播","name":"🥈爱播","type":1,"api":"https://cj1.apiabzy.com/api.php/provide/vod/?ac=list","playUrl":"https://player.aibozyplayer.com/m3u8/?url=","searchable":1,"quickSearch":1,"filterable":0}
-
+    ,{
+      "key": "路飞磁力",
+      "name": "🧲磁力丨搜索",
+      "type": 3,
+      "api": "./js/lf_p2p1_2_min.js",
+      "ext": "18+"
+  }
 ],
   "parses":[
     {"name":"Web聚合","type":3,"url":"Web"},
