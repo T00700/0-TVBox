@@ -718,7 +718,7 @@
             "name": "🧲磁力丨搜索",
             "type": 3,
             "api": "./js/lf_p2p1_2_min.js",
-            "ext": "18+"
+            "ext": ""
         },
         {
             "key": "push_agent",
