@@ -43,6 +43,29 @@
             "changeable": 0
         },
         {
+            "ext" : "eyJhcGlLZXkiOiJjMDYzMmZkZS1iZTQxLTRkODMtODFlZS1iMTY4NWYwNjI3ZjEiLCJhcGkiOiJodHRwOi8vcGFuZWwucnl1YW4udG9wIn0=",
+            "filterable" : 1,
+            "quickSearch" : 1,
+            "name" : "🐣丫仙女丨网盘",
+            "changeable" : 0,
+            "jar" : "http://panel.ryuan.top/spring.jar",
+            "api" : "csp_XiaoYa",
+            "type" : 3,
+            "key" : "csp_XiaoYa",
+            "searchable" : 1
+          }, {
+            "ext" : "eyJhcGlLZXkiOiJjMDYzMmZkZS1iZTQxLTRkODMtODFlZS1iMTY4NWYwNjI3ZjEiLCJhcGkiOiJodHRwOi8vcGFuZWwucnl1YW4udG9wIn0=",
+            "filterable" : 1,
+            "quickSearch" : 1,
+            "name" : "👨🏽‍🎓BiliBili丨App",
+            "changeable" : 0,
+            "jar" : "http://panel.ryuan.top/spring.jar",
+            "api" : "csp_BiliBili",
+            "type" : 3,
+            "key" : "csp_BiliBili",
+            "searchable" : 1
+          },
+        {
             "key": "csp_Alist1",
             "name": "🅿Alist┃网盘",
             "type": 3,
