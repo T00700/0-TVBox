@@ -284,7 +284,7 @@
             "key": "路飞ikanbot",
             "name": "🐣爱看丨Bot",
             "type": 3,
-            "api": "./js/lf_ikanbot3_2_min.js",
+            "api": "./js/lf_ikanbot4_min.js",
             "ext": "",
             "changeable": 0,
             "viewType": 1
@@ -446,6 +446,17 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": "./json/bibilili.json",
+            "viewType": 1
+        },
+        {
+            "key": "lf_js_search",
+            "name": "🎻海报",
+            "type": 3,
+            "searchable": 0,
+            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./lf_search3_min.js",
             "viewType": 1
         },
         {
@@ -732,7 +743,7 @@
             "key": "路飞磁力",
             "name": "🧲磁力丨搜索",
             "type": 3,
-            "api": "./js/lf_p2p1_2_min.js",
+            "api": "./js/lf_p2p2_min.js",
             "ext": ""
         },
         {
