@@ -128,7 +128,7 @@
       "key": "路飞磁力",
       "name": "🧲磁力丨搜索",
       "type": 3,
-      "api": "./js/lf_p2p2_min.js",
+      "api": "https://o.ryuan.top/js/lf_p2p2_min.js",
       "ext": "18+"
   }
 ],
