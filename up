@@ -51,13 +51,6 @@
             }
         },
         {
-            "key": "xiaoya-tv",
-            "name": "小雅",
-            "type": 3,
-            "api": "./asset/js/xiaoya.js",
-            "ext": "http://panel.ryuan.top/vod1"
-          },
-        {
             "key": "csp_Alist1",
             "name": "🅿Alist┃网盘",
             "type": 3,
