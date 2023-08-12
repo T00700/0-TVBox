@@ -1,8 +1,8 @@
 var rule = {
     title:'荐片',
-    host:'http://api2.rinhome.com',
-   
-    homeUrl:'http://api2.rinhome.com/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',
+    host:'http://jpmobile.acdn.axcxa.top',
+    //homeUrl:'https://yjpapipxblwdohpakljwg.hxhzs.com/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
+    homeUrl:'http://jpmobile.acdn.axcxa.top/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',
 	url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
     class_name:'电视剧&综艺&电影&动漫&全部',
     class_url:'2&4&1&3&0',
@@ -28,17 +28,17 @@ var rule = {
       }
     }],
     lazy:'',
-   
+    // double:true,
     图片来源:'@Referer=www.jianpianapp.com@User-Agent=jianpian-version353',
-
+	// 推荐:'json:data;room;*;cover;*;*',
 	推荐:'json:.video;*;*;*;*',
 	一级:'json:data;title;path;playlist.title;id',
     二级:{
     title:'data.title',
-   
+    //desc:';data.description;data.id',
     desc:';data.year.title;data.area.title;data.actors[0].name;data.directors[0].name',
     img:'data.thumbnail',
-   
+    //content:'data.thumbnail',
     content:'data.description',
     is_json:1,
     tabs:'js:TABS=[];if(html.data.have_ftp_ur == 1){TABS.push("边下边播超清版")}if(html.data.have_m3u8_ur == 1){TABS.push("在线点播普清版")}',
