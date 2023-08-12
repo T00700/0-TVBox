@@ -46,6 +46,12 @@
         "ext": "http://panel.ryuan.top/vod1"
       },
       {
+        "key": "subaibai",
+        "name": "素白白",
+        "type": 3,
+        "api": "assets://js/subaibai_open.js"
+      },
+      {
         "key": "bilibili",
         "name": "BiliBili",
         "type": 3,
