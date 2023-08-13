@@ -172,26 +172,6 @@
             "changeable": 0
         },
         {
-            "key": "探探",
-            "name": "🏵探探┃App",
-            "type": 3,
-            "playerType": "1",
-            "api": "csp_YT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },
-        {
-            "key": "露露",
-            "name": "🏵露露┃App",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://154.204.178.161:67/api.php/app/"
-        },
-        {
             "key": "csp_kuaikan",
             "name": "👀快看┃App",
             "type": 3,
