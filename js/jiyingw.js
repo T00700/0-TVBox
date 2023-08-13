@@ -76,7 +76,7 @@ var rule = {
 	预处理:`
 		let new_host=HOST;
 		let new_html=request(new_host, {withHeaders:true});
-		json=JSON.parse(new_html);
+		let json=JSON.parse(new_html);
 		let setCk=Object.keys(json).find(it=>it.toLowerCase()==="set-cookie");
 		let cookie=setCk?json[setCk].split(";")[0]:"";
 		log("cookie:"+cookie);

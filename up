@@ -318,6 +318,26 @@
             "ext": "./js/jiyingw.js"
         },
         {
+            "key": "MP4US",
+            "name": "🧲MP4US┃磁力",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/mp4us.js"
+        },
+        {
+            "key": "电影港",
+            "name": "🧲电影港┃磁力",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/dygang.js"
+        },
+        {
             "key": "csp_SP33",
             "name": "📺三三┃解析",
             "type": 3,
