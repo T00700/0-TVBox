@@ -6,12 +6,13 @@ var rule = {
 	filter_url:'{{fl.class}}',
 	filter:{
 	},
-	searchUrl: '',
-	searchable:0,
-	quickSearch:0,
+	searchUrl: '/search.php#searchsubmit=yes&srchtxt=**;post',
+	searchable:2,
+	quickSearch:1,
 	filterable:0,
 	headers:{
-		'User-Agent': 'PC_UA'
+		'User-Agent': 'PC_UA',
+         	'Cookie':'http://smallmi.xiaohewanwan.love:63/cili/4khdr.txt',
 	},
 	timeout:5000,
 	class_name: "4K电影&4K美剧&4K华语&4K动画&4K纪录片&4K日韩印&蓝光电影&蓝光美剧&蓝光华语&蓝光动画&蓝光日韩印",
@@ -101,5 +102,19 @@ var rule = {
 			`,
 
 	},
-	搜索:'',
+	一级:'ul#waterfall li;a&&title;img&&src;div.auth.cl&&Text;a&&href',
+	搜索:'div#threadlist ul li;h3&&Text;;p:eq(3)&&Text;a&&href;p:eq(2)&&Text',
+	预处理:`
+    		if (rule_fetch_params.headers.Cookie.startsWith("http")){
+			rule_fetch_params.headers.Cookie=fetch(rule_fetch_params.headers.Cookie);
+			setItem(RULE_CK,cookie);
+		};
+		log('4khdr cookie>>>>>>>>>>>>>>>' + rule_fetch_params.headers.Cookie);
+		let new_host='https://www.4khdr.cn/search.php';
+		let new_html=request(new_host);
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		let formhash = pdfh(new_html, 'input[name="formhash"]&&value');
+		log("formhash>>>>>>>>>>>>>>>" + formhash);
+		rule_fetch_params.formhash = formhash;
+	`,
 }
