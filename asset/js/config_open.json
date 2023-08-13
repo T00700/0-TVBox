@@ -39,6 +39,18 @@
         "api": "assets://js/duboku_open.js"
       },
       {
+        "key": "nangua",
+        "name": "南瓜",
+        "type": 3,
+        "api": "assets://js/ng_open.js"
+      },
+      {
+        "key": "230",
+        "name": "听书",
+        "type": 3,
+        "api": "assets://js/230ts_open.js"
+      },
+      {
         "key": "xiaoya-tv",
         "name": "小雅",
         "type": 3,
