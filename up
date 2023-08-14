@@ -571,30 +571,6 @@
             "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
         },
         {
-            "key": "AppTT",
-            "name": "图图",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "110c922de7d69804467fb83d3bb664b5#U2c3aDRRb0xMQnpWVjRhY1NSSyNIdW8wTkVCZG91ZWw=@@@U3FYMms0cWJZR2kzbzZzWQ==",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "Star",
-            "name": "星星",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "227debe32e2e299f5b71189055a92e93",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
             "key": "heihei",
             "name": "黑狗",
             "type": "3",
@@ -630,106 +606,14 @@
             "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
         },
         {
-            "key": "Kuaikan",
-            "name": "快看",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "459b1cb892e317546676a2c9dcec2bff",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "Kunyu77",
-            "name": "七七",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "8b48a0834ee08e5e64977bc9fc8bc3e0"
-        },
-        {
-            "key": "Auete",
-            "name": "奥特",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "b04b15448ad5bd4312f1fa1fb9aa9b1b"
-        },
-        {
-            "key": "Cokemv",
-            "name": "可乐",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "b88de1329655cca1beba45aa9776de70",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "LiteApple",
-            "name": "苹果",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "6deed4548c44b18d268a5d828f04d86e",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "Lib",
-            "name": "Libvio",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "78d057e4d03e47cb62dce13d69b41d6f",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "Dy555",
-            "name": "555",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "f41992bd740145ed58cb212dc0876582",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "IKan",
-            "name": "爱看",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "a4ce9a4ba7d4f4bced2ff9dfc4ab4e50",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "Lgyy",
-            "name": "蓝光",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "b2e573ff040fcd54b50475660ee1a7d1",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
+            "key": "星星",
+            "name": "🛫星星丨飞",
+            "type": 3,
+            "api": "csp_Star",
+            "searchable": 1,
+            "changeable": 1,
+            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+          },
         {
             "key": "csp_xpath_独播库",
             "name": "🛫独播库丨飞",
@@ -913,6 +797,15 @@
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
             ]
         },
+        {
+            "name": "星星",
+            "hosts": [
+              "aws.ulivetv.net"
+            ],
+            "regex": [
+              "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+          },
         {
             "name": "磁力廣告",
             "hosts": [
