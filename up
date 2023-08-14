@@ -535,6 +535,20 @@
             "ext": "./json/酷奇MV.json"
         },
         {
+            "key": "有声小说js",
+            "name": "🎧有声┃小说",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/tings.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "Czsapp",
             "name": "厂长",
             "type": "3",
