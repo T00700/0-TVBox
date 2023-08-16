@@ -95,7 +95,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://api123.adys.app/xgapp.php/v3/"
+            "ext": "https://api123.adys.app/xgapp.php/v3/",
+            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
         },
         {
             "key": "陌陌",
