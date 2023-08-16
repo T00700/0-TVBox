@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-16 12:36:12
+# 创建时间：2023-08-16 13:35:15
 # 使用模版：V2RaySE 默认模版
-# 节点数量：60
+# 节点数量：50
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -71,16 +71,6 @@ proxies:
   - {"name":"🇺🇸丨美国丨48","type":"vmess","server":"92.223.120.12","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
   - {"name":"🇩🇪丨德国丨49","type":"vmess","server":"92.223.124.35","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
   - {"name":"🇧🇷丨巴西丨50","type":"vmess","server":"92.223.12.11","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨ipv6丨1","type":"vmess","server":"216.240.134.118","port":30004,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨2","type":"vmess","server":"216.240.134.118","port":30005,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨3","type":"vmess","server":"216.240.134.118","port":30006,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨4","type":"vmess","server":"216.240.134.118","port":30007,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨5","type":"vmess","server":"216.240.134.118","port":30008,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨6","type":"vmess","server":"216.240.134.118","port":30009,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨7","type":"vmess","server":"216.240.134.118","port":30010,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨8","type":"vmess","server":"216.240.134.118","port":30011,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨9","type":"vmess","server":"216.240.134.118","port":30012,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
-  - {"name":"🇺🇸丨ipv6丨10","type":"vmess","server":"216.240.134.118","port":30013,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -137,16 +127,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -203,16 +183,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -269,16 +239,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -334,16 +294,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -399,16 +349,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -464,16 +404,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -546,16 +476,6 @@ proxy-groups:
       - 🇺🇸丨美国丨48
       - 🇩🇪丨德国丨49
       - 🇧🇷丨巴西丨50
-      - 🇺🇸丨ipv6丨1
-      - 🇺🇸丨ipv6丨2
-      - 🇺🇸丨ipv6丨3
-      - 🇺🇸丨ipv6丨4
-      - 🇺🇸丨ipv6丨5
-      - 🇺🇸丨ipv6丨6
-      - 🇺🇸丨ipv6丨7
-      - 🇺🇸丨ipv6丨8
-      - 🇺🇸丨ipv6丨9
-      - 🇺🇸丨ipv6丨10
 
 rules:
 # 本地/局域网地址
