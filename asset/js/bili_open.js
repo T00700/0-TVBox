@@ -3,7 +3,7 @@ import { Crypto, _ } from './lib/cat.js';
 let siteKey = '';
 let siteType = 0;
 
-let cookie = 'https://fongmi.cachefly.net/FongMi/CatVodSpider/main/txt/cookie.txt';
+let cookie = '';
 let login = '';
 let vip = '';
 let extendObj = {};
