@@ -164,6 +164,15 @@
             "changeable": 0
         },
         {
+            "key": "kuaikan",
+            "name": "👀快看┃App",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_AppMr",
             "name": "👻明明┃App",
             "type": 3,
