@@ -76,56 +76,6 @@
             "ext": "./json/nmys.json"
         },
         {
-            "key": "迪迪",
-            "name": "😎迪迪┃App",
-            "api": "csp_AppYsV2",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://api123.adys.app/xgapp.php/v3/"
-        },
-        {
-            "key": "陌陌",
-            "name": "🍄陌陌┃App",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://wushutvcms.byzz.top/api.php/app/"
-        },
-        {
-            "key": "米米",
-            "name": "🍓莓莓┃App",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://22222.yiyingys.asia/api.php/app/"
-        },
-        {
-            "key": "哈喽",
-            "name": "✌哈喽┃App",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://guan.yy365.vip/api.php/app/"
-        },
-        {
-            "key": "彩虹",
-            "name": "🌈彩虹┃App",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://jh.dytt996.com:996/api.php/app/"
-        },
-        {
             "key": "探探",
             "name": "🏵探探┃App",
             "type": 3,
