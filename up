@@ -302,6 +302,26 @@
             "ext": "./js/js/dygang.js"
         },
         {
+            "key": "美剧迷",
+            "name": "🧲美剧迷┃磁力",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/meijumi.js"
+        },
+        {
+            "key": "磁力熊",
+            "name": "🧲磁力熊┃磁力",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/cilixiong.js"
+        },
+        {
             "key": "新6V",
             "name": "🧲新6V磁力┃慎用",
             "type": 3,
