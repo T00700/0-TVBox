@@ -10,7 +10,7 @@
     }
     ],
     "wallpaper": "http://饭.eu.org/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;b3a5a49c793dd82c3fd04e75d3071b20",
+    "spider": "./jar/fan.jar;md5;c80207edebbe5019a688fd2eb653e005",
     "sites": [
         {
             "key": "YQK_spider",
@@ -88,6 +88,16 @@
             "changeable": 0
         },
         {
+            "key": "专线",
+            "name": "🚅专线┃App",
+            "type": 3,
+            "api": "csp_ZhuanX",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://cms.maoyingshi.cc/api.php/app/"
+        },
+        {
             "key": "探探",
             "name": "🏵探探┃App",
             "type": 3,
@@ -96,7 +106,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "http://smallmi.xiaohewanwan.love:63/cili/fan.txt"
+            "ext": "vvvwvwvvwwvwvvvwvvwwvvvwwwwvvvvwvvvwwvvvwwwvvwvwvvwvvvvw.lyyytv.cn"
         },
         {
             "key": "csp_77",
@@ -299,6 +309,16 @@
             "changeable": 0,
             "api": "./js/drpy2.min.js",
             "ext": "./js/dygang.js"
+        },
+        {
+            "key": "新6V",
+            "name": "🧲新6V磁力┃慎用",
+            "type": 3,
+            "api": "csp_SixV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "http://www.xb6v.com/"
         },
         {
             "key": "csp_SP33",
