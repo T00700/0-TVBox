@@ -45,10 +45,10 @@
         "api": "assets://js/subaibai_open.js"
       },
       {
-        "key": "libvio",
-        "name": "Libvio",
+        "key": "视聚场",
+        "name": "视聚场",
         "type": 3,
-        "api": "assets://js/libvio_open.js"
+        "api": "assets://js/cntv_open.js"
       },
       {
         "key": "xiaoya-tv",
@@ -56,6 +56,42 @@
         "type": 3,
         "api": "assets://js/xiaoya.js",
         "ext": "http://panel.ryuan.top/vod1"
+      },
+      {
+        "key": "libvio",
+        "name": "Libvio",
+        "type": 3,
+        "api": "assets://js/libvio_open.js"
+      },
+      {
+        "key": "boosj_open",
+        "name": "童趣",
+        "type": 3,
+        "api": "assets://js/boosj_open.js"
+      },
+      {
+        "key": "zxzj",
+        "name": "在线之家",
+        "type": 3,
+        "api": "assets://js/zxzj_open.js"
+      },
+      {
+        "key": "dj0898",
+        "name": "世纪DJ音乐网",
+        "type": 3,
+        "api": "assets://js/dj0898_open.js"
+      },
+      {
+        "key": "tuxiaobei",
+        "name": "兔小贝",
+        "type": 3,
+        "api": "assets://js/tuxiaobei_open.js"
+      },
+      {
+        "key": "ubestkid_open",
+        "name": "贝乐虎",
+        "type": 3,
+        "api": "assets://js/ubestkid_open.js"
       },
       {
         "key": "230",
