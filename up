@@ -28,8 +28,8 @@
             "key": "js豆瓣",
             "name": "🍔豆瓣┃热播",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/drpy.js",
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/drpy.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
@@ -155,22 +155,13 @@
             "name": "🐭贱贱┃p2p",
             "type": 3,
             "playerType": "1",
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/荐片.js",
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/荐片.js",
             "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             }
-        },
-        {
-            "key": "酷酷",
-            "name": "💡酷酷┃App",
-            "type": 3,
-            "api": "csp_Kuying",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
         },
         {
             "key": "kuaikan",
@@ -262,7 +253,7 @@
             "key": "路飞ikanbot",
             "name": "🐣爱看丨Bot",
             "type": 3,
-            "api": "./js/lf_ikanbot4_min.js",
+            "api": "./js/js/lf_ikanbot4_min.js",
             "ext": "",
             "changeable": 0,
             "style": {
@@ -277,8 +268,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/4khdr.js"
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/4khdr.js"
         },
         {
             "key": "jiyingw",
@@ -287,8 +278,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/jiyingw.js"
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/jiyingw.js"
         },
         {
             "key": "MP4US",
@@ -297,8 +288,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/mp4us.js"
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/mp4us.js"
         },
         {
             "key": "电影港",
@@ -307,8 +298,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/dygang.js"
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/dygang.js"
         },
         {
             "key": "新6V",
@@ -431,8 +422,8 @@
             "key": "88js",
             "name": "🏀88看球",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/88.js",
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/88.js",
             "searchable": 0,
             "quickSearch": 0,
             "style": {
@@ -491,7 +482,7 @@
             "changeable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "api": "./js/lf_search3_min.js",
+            "api": "./js/js/lf_search3_min.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -511,8 +502,8 @@
             "key": "有声小说js",
             "name": "🎧有声┃小说",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/tings.js",
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "./js/js/tings.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -679,7 +670,7 @@
             "key": "路飞磁力",
             "name": "🧲磁力丨搜索",
             "type": 3,
-            "api": "./js/lf_p2p2_min.js",
+            "api": "./js/js/lf_p2p2_min.js",
             "ext": ""
         },
         {
