@@ -64,12 +64,6 @@
         "api": "assets://js/zxzj_open.js"
       },
       {
-        "key": "dj0898",
-        "name": "🎀世纪DJ音乐网",
-        "type": 3,
-        "api": "assets://js/dj0898_open.js"
-      },
-      {
         "key": "230",
         "name": "🎧听书",
         "type": 3,
