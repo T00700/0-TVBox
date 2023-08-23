@@ -3,141 +3,117 @@
     "sites": [
       {
         "key": "kunyu77",
-        "name": "七七",
+        "name": "👒七七",
         "type": 3,
         "api": "assets://js/kunyu77_open.js"
       },
       {
         "key": "1",
-        "name": "厂长",
+        "name": "📔厂长",
         "type": 3,
         "api": "assets://js/czzy_open.js"
       },
       {
         "key": "2",
-        "name": "爱看",
+        "name": "🐣爱看",
         "type": 3,
         "api": "assets://js/ikanbot_open.js"
       },
       {
         "key": "3",
-        "name": "快看",
+        "name": "👀快看",
         "type": 3,
         "api": "assets://js/kkys_open.js"
       },
       {
         "key": "5",
-        "name": "玩偶哥哥",
+        "name": "👽玩偶哥哥",
         "type": 3,
         "api": "assets://js/wogg_open.js",
         "ext":"https://o.ryuan.top/json/token.txt"
       },
       {
         "key": "nangua",
-        "name": "南瓜",
+        "name": "⏮️南瓜",
         "type": 3,
         "api": "assets://js/ng_open.js"
       },
       {
         "key": "subaibai",
-        "name": "素白白",
+        "name": "🎈素白白",
         "type": 3,
         "api": "assets://js/subaibai_open.js"
       },
       {
-        "key": "视聚场",
-        "name": "视聚场",
-        "type": 3,
-        "api": "assets://js/cntv_open.js"
-      },
-      {
         "key": "xiaoya-tv",
-        "name": "小雅",
+        "name": "🐼小雅",
         "type": 3,
         "api": "assets://js/xiaoya.js",
         "ext": "http://panel.ryuan.top/vod1"
       },
       {
         "key": "libvio",
-        "name": "Libvio",
+        "name": "🌟Libvio",
         "type": 3,
         "api": "assets://js/libvio_open.js"
       },
       {
-        "key": "boosj_open",
-        "name": "童趣",
-        "type": 3,
-        "api": "assets://js/boosj_open.js"
-      },
-      {
         "key": "zxzj",
-        "name": "在线之家",
+        "name": "📗在线之家",
         "type": 3,
         "api": "assets://js/zxzj_open.js"
       },
       {
         "key": "dj0898",
-        "name": "世纪DJ音乐网",
+        "name": "🎀世纪DJ音乐网",
         "type": 3,
         "api": "assets://js/dj0898_open.js"
       },
       {
-        "key": "tuxiaobei",
-        "name": "兔小贝",
-        "type": 3,
-        "api": "assets://js/tuxiaobei_open.js"
-      },
-      {
-        "key": "ubestkid_open",
-        "name": "贝乐虎",
-        "type": 3,
-        "api": "assets://js/ubestkid_open.js"
-      },
-      {
         "key": "230",
-        "name": "听书",
+        "name": "🎧听书",
         "type": 3,
         "api": "assets://js/230ts_open.js"
       },
       {
         "key": "kuqi",
-        "name": "酷奇mv",
+        "name": "🎤酷奇mv",
         "type": 3,
         "api": "assets://js/kuqimv_open.js"
       },
       {
         "key": "短视频",
-        "name": "短视频",
+        "name": "📽️短视频",
         "type": 3,
         "api": "assets://js/sharenice_open.js"
       },
       {
         "key": "bilibili",
-        "name": "BiliBili",
+        "name": "🅱BiliBili",
         "type": 3,
         "api": "assets://js/mybili_open.js"
       },
       {
         "key": "11",
-        "name": "独播库丨墙",
+        "name": "🛫独播库丨墙",
         "type": 3,
         "api": "assets://js/duboku.js"
       },
       {
         "key": "7",
-        "name": "18AV丨墙",
+        "name": "🛫18AV丨墙",
         "type": 3,
         "api": "assets://js/18a_open.js"
       },
       {
         "key": "4",
-        "name": "蜜桃丨墙",
+        "name": "🛫蜜桃丨墙",
         "type": 3,
         "api": "assets://js/mtsp_open.js"
       },
       {
         "key": "8",
-        "name": "泥巴丨墙",
+        "name": "🛫泥巴丨墙",
         "type": 3,
         "api": "assets://js/nivod_op.js",
         "ext":  "做爱"
