@@ -97,6 +97,15 @@
             "ext": "vvvwvwvvwwvwvvvwvvwwvvvwwwwvvvvwvvvwwvvvwwwvvwvwvvwvvvvw.lyyytv.cn"
         },
         {
+            "key": "酷酷",
+            "name": "💡酷影┃App",
+            "type": 3,
+            "api": "csp_Kuying",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_77",
             "name": "👒七七┃App",
             "type": 3,
