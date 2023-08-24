@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-23 07:19:19
+# 创建时间：2023-08-24 10:16:55
 # 使用模版：V2RaySE 默认模版
-# 节点数量：42
+# 节点数量：44
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,333 +21,347 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸丨美国丨Disney丨1","type":"vmess","server":"92.38.159.4","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨Disney丨2","type":"vmess","server":"92.223.63.10","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨3","type":"vmess","server":"45.65.8.4","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇬🇧丨英国丨Disney丨4","type":"vmess","server":"93.123.11.11","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇲🇽丨墨西哥丨Disney丨5","type":"vmess","server":"213.156.144.7","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨6","type":"vmess","server":"5.8.92.5","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨7","type":"vmess","server":"92.38.170.8","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨8","type":"vmess","server":"185.101.136.8","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇿丨乌兹别克斯坦丨Disney丨9","type":"vmess","server":"37.110.209.228","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨10","type":"vmess","server":"92.38.168.5","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇪🇸丨西班牙丨Disney丨11","type":"vmess","server":"5.188.126.7","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨12","type":"vmess","server":"92.223.118.16","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨13","type":"vmess","server":"92.223.120.10","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨14","type":"vmess","server":"92.38.170.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨15","type":"vmess","server":"92.38.170.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇨🇦丨加拿大丨Disney丨16","type":"vmess","server":"5.101.222.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇦🇺丨澳大利亚丨Disney丨17","type":"vmess","server":"92.223.78.30","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨18","type":"vmess","server":"78.111.103.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨Disney丨19","type":"vmess","server":"92.223.63.11","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨20","type":"vmess","server":"92.223.68.26","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇲🇽丨墨西哥丨Disney丨21","type":"vmess","server":"213.156.144.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Disney丨22","type":"vmess","server":"92.223.120.12","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨Netflix丨1","type":"vmess","server":"92.223.63.26","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨2","type":"vmess","server":"185.101.136.8","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨3","type":"vmess","server":"92.223.120.14","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨4","type":"vmess","server":"92.223.120.12","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇸🇪丨瑞典丨Netflix丨5","type":"vmess","server":"80.240.113.8","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨6","type":"vmess","server":"5.8.92.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇲🇽丨墨西哥丨Netflix丨7","type":"vmess","server":"213.156.144.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨8","type":"vmess","server":"92.38.168.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨9","type":"vmess","server":"5.8.92.6","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇧🇷丨巴西丨Netflix丨10","type":"vmess","server":"80.240.124.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨Netflix丨11","type":"vmess","server":"92.223.63.10","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇬🇧丨英国丨Netflix丨12","type":"vmess","server":"93.123.11.11","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨13","type":"vmess","server":"92.223.68.27","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇹🇭丨泰国丨Netflix丨14","type":"vmess","server":"5.252.26.62","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇦丨乌克兰丨Netflix丨15","type":"vmess","server":"79.133.108.16","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨16","type":"vmess","server":"92.38.168.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨17","type":"vmess","server":"5.8.92.4","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇵🇱丨波兰丨Netflix丨18","type":"vmess","server":"92.223.92.25","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨19","type":"vmess","server":"92.223.68.26","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨Netflix丨20","type":"vmess","server":"92.38.159.14","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨1","type":"vmess","server":"185.101.136.7","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇫🇷丨法国丨2","type":"vmess","server":"92.223.55.5","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇴🇲丨阿曼丨3","type":"vmess","server":"134.0.219.37","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇱🇺丨卢森堡丨4","type":"vmess","server":"80.93.223.62","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇧🇭丨巴林丨5","type":"vmess","server":"151.248.104.91","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇬🇧丨英国丨6","type":"vmess","server":"93.123.11.12","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇻🇳丨越南丨7","type":"vmess","server":"171.229.196.136","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨8","type":"vmess","server":"92.38.159.14","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨9","type":"vmess","server":"92.38.170.10","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨10","type":"vmess","server":"92.223.68.25","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇦丨乌克兰丨11","type":"vmess","server":"185.158.211.186","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨12","type":"vmess","server":"92.38.159.4","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨13","type":"vmess","server":"92.223.120.14","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇰🇷丨韩国丨14","type":"vmess","server":"92.223.61.30","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇲🇽丨墨西哥丨15","type":"vmess","server":"213.156.144.7","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨16","type":"vmess","server":"5.252.26.6","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨17","type":"vmess","server":"92.38.170.6","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇨🇦丨加拿大丨18","type":"vmess","server":"5.101.222.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇸🇬丨新加坡丨19","type":"vmess","server":"92.223.116.221","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇨🇦丨加拿大丨20","type":"vmess","server":"5.101.222.5","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨21","type":"vmess","server":"5.8.92.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇲🇽丨墨西哥丨22","type":"vmess","server":"213.156.144.6","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇲🇽丨墨西哥丨23","type":"vmess","server":"213.156.144.5","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇱🇺丨卢森堡丨24","type":"vmess","server":"92.223.112.28","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇧🇾丨白俄罗斯丨25","type":"vmess","server":"5.188.7.12","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇲🇽丨墨西哥丨26","type":"vmess","server":"213.156.144.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨27","type":"vmess","server":"5.8.92.4","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨28","type":"vmess","server":"5.252.26.10","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨29","type":"vmess","server":"5.8.92.6","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨30","type":"vmess","server":"45.65.8.4","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨31","type":"vmess","server":"92.223.118.20","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨32","type":"vmess","server":"92.223.68.22","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇨🇦丨加拿大丨33","type":"vmess","server":"5.101.222.4","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇦🇺丨澳大利亚丨34","type":"vmess","server":"146.185.221.132","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨1","type":"vmess","server":"92.223.68.22","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨2","type":"vmess","server":"92.38.159.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨3","type":"vmess","server":"92.38.170.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨4","type":"vmess","server":"92.38.170.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨5","type":"vmess","server":"92.38.170.8","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨6","type":"vmess","server":"92.223.120.12","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨7","type":"vmess","server":"185.101.136.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨8","type":"vmess","server":"92.38.170.6","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨ipv6丨9","type":"vmess","server":"92.223.120.15","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇲🇽丨墨西哥丨ipv6丨10","type":"vmess","server":"213.156.144.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -370,48 +384,50 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸丨美国丨Disney丨1
-      - 🇯🇵丨日本丨Disney丨2
-      - 🇺🇸丨美国丨Disney丨3
-      - 🇬🇧丨英国丨Disney丨4
-      - 🇲🇽丨墨西哥丨Disney丨5
-      - 🇺🇸丨美国丨Disney丨6
-      - 🇺🇸丨美国丨Disney丨7
-      - 🇺🇸丨美国丨Disney丨8
-      - 🇺🇿丨乌兹别克斯坦丨Disney丨9
-      - 🇺🇸丨美国丨Disney丨10
-      - 🇪🇸丨西班牙丨Disney丨11
-      - 🇺🇸丨美国丨Disney丨12
-      - 🇺🇸丨美国丨Disney丨13
-      - 🇺🇸丨美国丨Disney丨14
-      - 🇺🇸丨美国丨Disney丨15
-      - 🇨🇦丨加拿大丨Disney丨16
-      - 🇦🇺丨澳大利亚丨Disney丨17
-      - 🇺🇸丨美国丨Disney丨18
-      - 🇯🇵丨日本丨Disney丨19
-      - 🇺🇸丨美国丨Disney丨20
-      - 🇲🇽丨墨西哥丨Disney丨21
-      - 🇺🇸丨美国丨Disney丨22
-      - 🇯🇵丨日本丨Netflix丨1
-      - 🇺🇸丨美国丨Netflix丨2
-      - 🇺🇸丨美国丨Netflix丨3
-      - 🇺🇸丨美国丨Netflix丨4
-      - 🇸🇪丨瑞典丨Netflix丨5
-      - 🇺🇸丨美国丨Netflix丨6
-      - 🇲🇽丨墨西哥丨Netflix丨7
-      - 🇺🇸丨美国丨Netflix丨8
-      - 🇺🇸丨美国丨Netflix丨9
-      - 🇧🇷丨巴西丨Netflix丨10
-      - 🇯🇵丨日本丨Netflix丨11
-      - 🇬🇧丨英国丨Netflix丨12
-      - 🇺🇸丨美国丨Netflix丨13
-      - 🇹🇭丨泰国丨Netflix丨14
-      - 🇺🇦丨乌克兰丨Netflix丨15
-      - 🇺🇸丨美国丨Netflix丨16
-      - 🇺🇸丨美国丨Netflix丨17
-      - 🇵🇱丨波兰丨Netflix丨18
-      - 🇺🇸丨美国丨Netflix丨19
-      - 🇺🇸丨美国丨Netflix丨20
+      - 🇺🇸丨美国丨1
+      - 🇫🇷丨法国丨2
+      - 🇴🇲丨阿曼丨3
+      - 🇱🇺丨卢森堡丨4
+      - 🇧🇭丨巴林丨5
+      - 🇬🇧丨英国丨6
+      - 🇻🇳丨越南丨7
+      - 🇺🇸丨美国丨8
+      - 🇺🇸丨美国丨9
+      - 🇺🇸丨美国丨10
+      - 🇺🇦丨乌克兰丨11
+      - 🇺🇸丨美国丨12
+      - 🇺🇸丨美国丨13
+      - 🇰🇷丨韩国丨14
+      - 🇲🇽丨墨西哥丨15
+      - 🇹🇭丨泰国丨16
+      - 🇺🇸丨美国丨17
+      - 🇨🇦丨加拿大丨18
+      - 🇸🇬丨新加坡丨19
+      - 🇨🇦丨加拿大丨20
+      - 🇺🇸丨美国丨21
+      - 🇲🇽丨墨西哥丨22
+      - 🇲🇽丨墨西哥丨23
+      - 🇱🇺丨卢森堡丨24
+      - 🇧🇾丨白俄罗斯丨25
+      - 🇲🇽丨墨西哥丨26
+      - 🇺🇸丨美国丨27
+      - 🇹🇭丨泰国丨28
+      - 🇺🇸丨美国丨29
+      - 🇺🇸丨美国丨30
+      - 🇺🇸丨美国丨31
+      - 🇺🇸丨美国丨32
+      - 🇨🇦丨加拿大丨33
+      - 🇦🇺丨澳大利亚丨34
+      - 🇺🇸丨美国丨ipv6丨1
+      - 🇺🇸丨美国丨ipv6丨2
+      - 🇺🇸丨美国丨ipv6丨3
+      - 🇺🇸丨美国丨ipv6丨4
+      - 🇺🇸丨美国丨ipv6丨5
+      - 🇺🇸丨美国丨ipv6丨6
+      - 🇺🇸丨美国丨ipv6丨7
+      - 🇺🇸丨美国丨ipv6丨8
+      - 🇺🇸丨美国丨ipv6丨9
+      - 🇲🇽丨墨西哥丨ipv6丨10
 
 rules:
 # 本地/局域网地址
