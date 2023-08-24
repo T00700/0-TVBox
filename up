@@ -325,11 +325,11 @@
             "key": "新6V",
             "name": "🧲新6V磁力┃慎用",
             "type": 3,
-            "api": "csp_SixV",
+            "api": "./js/lib/drpy2.min.js",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://www.xb6v.com/"
+            "ext": "./js/js/xb6v.js"
         },
         {
             "key": "csp_SP33",
