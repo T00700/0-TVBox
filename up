@@ -352,15 +352,6 @@
             "timeout": 60000
         },
         {
-            "key": "push_quark",
-            "name": "推送quark",
-            "type": 3,
-            "api": "csp_Quark",
-            "changeable": 0,
-            "ext": "./json/kk.txt",
-            "jar":"./jar/pg.jar"
-        },
-        {
             "key": "csp_SP33",
             "name": "📺三三┃解析",
             "type": 3,
@@ -721,6 +712,15 @@
             "type": 3,
             "api": "./js/js/lf_p2p2_min.js",
             "ext": ""
+        },
+        {
+            "key": "push_quark",
+            "name": "推送quark",
+            "type": 3,
+            "api": "csp_Quark",
+            "changeable": 0,
+            "ext": "./json/kk.txt",
+            "jar":"./jar/pg.jar"
         },
         {
             "key": "push_agent",
