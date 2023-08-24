@@ -319,7 +319,7 @@
             "quickSearch": 1,
             "changeable": 0,
             "api": "./js/lib/drpy2.min.js",
-            "ext": "./js/js/cilixiong.js"
+            "ext": "./js/js/cilixiongp.js"
         },
         {
             "key": "新6V",
