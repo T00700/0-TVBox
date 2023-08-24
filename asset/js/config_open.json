@@ -85,7 +85,8 @@
         "key": "bilibili",
         "name": "🅱BiliBili",
         "type": 3,
-        "api": "assets://js/mybili_open.js"
+        "api": "assets://js/bilibili.js",
+        "ext":"http://panel.ryuan.top/bilibili"
       },
       {
         "key": "11",
