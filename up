@@ -323,7 +323,7 @@
         },
         {
             "key": "新6V",
-            "name": "🧲新6V磁力┃慎用",
+            "name": "🧲新6V┃磁力",
             "type": 3,
             "api": "./js/lib/drpy2.min.js",
             "searchable": 1,
