@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "http://饭.eu.org/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;bf1f28d65240042a470d4f80035e529f",
+    "spider": "./jar/fan.jar;md5;0b81c0ac4917ca94b8446758d09227e5",
     "sites": [
         {
             "key": "YQK_spider",
@@ -76,25 +76,15 @@
             "ext": "./json/nmys.json"
         },
         {
-            "key": "专线",
-            "name": "🚅专线┃App",
-            "type": 3,
-            "api": "csp_ZhuanX",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "http://cms.maoyingshi.cc/api.php/app/"
-        },
-        {
             "key": "探探",
-            "name": "🏵探探┃App",
+            "name": "🏵影探┃App",
             "type": 3,
             "playerType": "1",
             "api": "csp_YTVIP",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "vvvwvwvvwwvwvvvwvvwwvvvwwwwvvvvwvvvwwvvvwwwvvwvwvvwvvvvw.lyyytv.cn"
+            "ext": "vip.lyyytv.cn"
         },
         {
             "key": "酷酷",
