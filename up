@@ -10,7 +10,7 @@
     }
     ],
     "wallpaper": "http://饭.eu.org/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;0b81c0ac4917ca94b8446758d09227e5",
+    "spider": "./jar/fan.jar;md5;4a0dc0ae860c90d0001f1fc0fae230f7",
     "sites": [
         {
             "key": "YQK_spider",
@@ -97,15 +97,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "vip.lyyytv.cn"
-        },
-        {
-            "key": "酷酷",
-            "name": "💡酷影┃App",
-            "type": 3,
-            "api": "csp_Kuying",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
         },
         {
             "key": "csp_77",
