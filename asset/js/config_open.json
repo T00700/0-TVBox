@@ -122,7 +122,13 @@
             "name": "博看听书",
             "type": 10,
             "api": "assets://js/bookan_open.js"
-        }
+        },
+        {
+          "key": "230ts",
+          "name": "230听书",
+          "type": 10,
+          "api": "assets://js/230ts_book_open.js"
+      }
     ]
 },
   "pan": {
