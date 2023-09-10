@@ -6,7 +6,7 @@
         "name": "🍃丨玩偶【💖】",
         "type": 3,
         "api": "./wogg_open.js",
-        "ext": "填token"
+        "ext": "https://o.ryuan.top/json/token.txt"
    },    
    {
         "key": "kkys",
