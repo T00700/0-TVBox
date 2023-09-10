@@ -128,7 +128,13 @@
           "name": "230听书",
           "type": 10,
           "api": "assets://js/230ts_book_open.js"
-      }
+      },
+      {
+        "key": "laobaigushi",
+        "name": "老白故事",
+        "type": 10,
+        "api": "assets://js/lbgs_open.js"
+    }
     ]
 },
   "pan": {
