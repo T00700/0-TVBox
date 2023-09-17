@@ -10,7 +10,7 @@
     }
     ],
     "wallpaper": "http://饭.eu.org/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;f20b74480c058b1ff6236601f92d65a8",
+    "spider": "./jar/fan.jar;md5;ed5d521ad71063b99b06e9ad4c7f9bca",
     "sites": [
         {
             "key": "YQK_spider",
@@ -120,6 +120,16 @@
                 "type": "rect",
                 "ratio": 1.597
             }
+        },
+        {
+            "key": "蚂蚁",
+            "name": "🐜蚂蚁┃直连",
+            "type": 3,
+            "api": "csp_Mayiys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "http://rzys.xyz"
         },
         {
             "key": "csp_DiDuan",
