@@ -38,7 +38,13 @@
         "type": 3,
         "api": "assets://js/yt_open.js",
         "ext": "http://ytcms.lyyytv.cn/api.php/app/"
-    },
+      },
+      {
+        "key": "17kan",
+        "name": "17看",
+        "type": 3,
+        "api": "assets://js/yqktv_open.js"
+      },
       {
         "key": "nangua",
         "name": "⏮️南瓜",
