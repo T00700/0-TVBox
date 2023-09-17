@@ -33,6 +33,13 @@
         "ext":"https://o.ryuan.top/json/token.txt"
       },
       {
+        "key": "yt",
+        "name": "🏓影探",
+        "type": 3,
+        "api": "assets://js/yt_open.js",
+        "ext": "http://ytcms.lyyytv.cn/api.php/app/"
+    },
+      {
         "key": "nangua",
         "name": "⏮️南瓜",
         "type": 3,
