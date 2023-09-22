@@ -9,21 +9,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
     ],
-    "wallpaper": "http://饭.eu.org/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;ed5d521ad71063b99b06e9ad4c7f9bca",
+    "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+    "spider": "./jar/fan.jar;md5;533f279c487b5bd34cf4947a7afbee34",
     "sites": [
-        {
-            "key": "YQK_spider",
-            "name": "🐒酒岁┃TV",
-            "api": "csp_YQKAPP",
-            "type": 3,
-            "filterable": 1,
-            "playerType": 2,
-            "quickSearch": 1,
-            "searchable": 1,
-            "ext": "https://api-aws.11ty.top",
-            "changeable": 0
-        },
         {
             "key": "js豆瓣",
             "name": "🍔豆瓣┃热播",
@@ -99,6 +87,15 @@
             "ext": "vip.lyyytv.cn"
         },
         {
+            "key": "毛驴",
+            "name": "🍓毛驴┃App",
+            "type": 3,
+            "api": "csp_Maolv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
             "key": "csp_77",
             "name": "👒七七┃App",
             "type": 3,
@@ -130,6 +127,15 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "http://rzys.xyz"
+        },
+        {
+            "key": "csp_Bttoo",
+            "name": "🍄比特┃直连",
+            "type": 3,
+            "api": "csp_Bttwoo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "csp_DiDuan",
