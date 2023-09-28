@@ -1,16 +1,18 @@
 {   
      "warningText": "NULL",
-    "lives": [
-    {
-      "name": "TXT",
-      "type": 0,
-      "url": "./live/sxg.m3u",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
+     "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "./live/tvlive.txt",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;533f279c487b5bd34cf4947a7afbee34",
+    "spider": "./jar/fan.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c",
     "sites": [
         {
             "key": "js豆瓣",
