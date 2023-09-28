@@ -258,18 +258,6 @@
             "ext": "https://www.ysgc1.cc/"
         },
         {
-            "key": "路飞ikanbot",
-            "name": "🐣爱看丨Bot",
-            "type": 3,
-            "api": "./js/js/lf_ikanbot4_min.js",
-            "ext": "",
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
             "key": "4KHDR",
             "name": "🧲世界┃磁力",
             "type": 3,
@@ -477,20 +465,6 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": "./json/bibilili.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "lf_js_search",
-            "name": "🎻海报",
-            "type": 3,
-            "searchable": 0,
-            "changeable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "api": "./js/js/lf_search3_min.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
