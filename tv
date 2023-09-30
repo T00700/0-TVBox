@@ -13,17 +13,16 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;533f279c487b5bd34cf4947a7afbee34",
+    "spider": "./jar/fan.jar;md5;64fa98fbba7758f483e6e82dea311f77",
     "sites": [
         {
             "key": "js豆瓣",
             "name": "🍔豆瓣┃热播",
             "type": 3,
-            "api": "./js/lib/drpy2.min.js",
-            "ext": "./js/js/drpy.js",
+            "api": "csp_DouDou",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 1
+            "filterable": 0
         },
         {
             "key": "csp_Alist1",
@@ -63,6 +62,36 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/nmys.json"
+        },
+        {
+            "key": "Mino",
+            "name": "👻Mino┃App",
+            "type": 3,
+            "api": "csp_Appto",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "|mcjJlcmV6VXF4a2pwMUMzbG1JcUJ0THpscW9YaE5MaDd8aHR0cDovL2Ntcy5rdWJveXMudG9wL2FwcHRvL3Yx"
+        },
+        {
+            "key": "追忆",
+            "name": "✌追忆┃App",
+            "type": 3,
+            "api": "csp_Appto",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "|NZWNwN0ZXZE02WTRreHpXY2ZmNjJwY0RjWGlZN2ZmQWF8aHR0cDovLzIyMi4yMTEuNzMuMTU3OjExMjIvYXBwdG8vdjE"
+        },
+        {
+            "key": "橘子",
+            "name": "🍊橘子┃直连",
+            "type": 3,
+            "api": "csp_Appto",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "pB8fV1o5fODylO5AtO8tvf0F1lRBzZhIb0ydyOYoUZ69DpfdeG0oDdRtFLkWxpHU9kWB67yp98N%2FQRMqmBFfDAyox2BUH5%2BexjgENSd4e28Pxi%2B5t01guq9FdjMXODf8IiUY1tJcNlEWeTAdGho%2BjA%3D%3D|BTmtwQlNQQ05OQXdYMktjZWNtd1lNakdKYkNQYjVZcll8aHR0cDovLzExOS4xMDEuMTQ4LjM6MjUyNS9hcHB0by92MQ"
         },
         {
             "key": "探探",
@@ -105,12 +134,13 @@
         },
         {
             "key": "毛驴",
-            "name": "🍓毛驴┃App",
+            "name": "🍓毛驴┃直连",
             "type": 3,
-            "api": "csp_Maolv",
+            "api": "csp_MLYS",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "https://www.maolvys.com/"
         },
         {
             "key": "蚂蚁",
