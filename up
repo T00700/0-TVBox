@@ -12,7 +12,7 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;698c36a5c29368495f8f552b9fe650cf",
+    "spider": "./jar/fan.jar;md5;8960305db3cdfcb9842298cc39959c11",
     "sites": [
         {
             "key": "js豆瓣",
@@ -133,14 +133,15 @@
             "changeable": 0
         },
         {
-            "key": "csp_Czsapp",
+            "key": "Czsapp",
             "name": "📔厂长┃直连",
             "type": 3,
             "api": "csp_Czsapp",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 0,
+            "changeable": 1,
+            "ext": "https://cz01.cc/",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -519,63 +520,6 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0
-        },
-        {
-            "key": "Czsapp",
-            "name": "厂长",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "8ee655f702d0d21f3643504783babbc3",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "世界杯",
-            "name": "一起看",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "8e3aefcba838d8dc5102ac786719d837",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "heihei",
-            "name": "黑狗",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "3bff500c8b1e06c052a1b0f1f7a62b45",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "PP",
-            "name": "胖胖",
-            "type": "3",
-            "api": "csp_Dora",
-            "changeable": "0",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "c41fdb671b20925c76fa9b6ff8bad027",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
-        },
-        {
-            "key": "Ddys",
-            "name": "低端",
-            "type": "3",
-            "api": "csp_Dora",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "1cc92323700909e7d46623bc85b958d6",
-            "jar": "./jar/tang.jar;md5;c1e46263999c6c1764d0bb919fa0bd69"
         },
         {
             "key": "星星",
