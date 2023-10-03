@@ -32,7 +32,9 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/alist.json"
+            "ext": "./json/alist.json",
+            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+          
         },
         {
             "key": "MV_vod",
