@@ -45,7 +45,7 @@
             "filterable": 0,
             "ext": "./json/alist.json",
             "changeable": 0,
-            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+            "jar":"https://raw.ryuan.top/FongMi/CatVodSpider/main/jar/custom_spider.jar"
           
         },
         {
