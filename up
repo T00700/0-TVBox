@@ -12,7 +12,7 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;8960305db3cdfcb9842298cc39959c11",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;8960305db3cdfcb9842298cc39959c11",
     "sites": [
         {
             "key": "js豆瓣",
