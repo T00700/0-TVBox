@@ -62,6 +62,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/nmys.json"
+        }, 
+        {
+            "key": "Mino",
+            "name": "👻Mino┃App",
+            "type": 3,
+            "api": "csp_Appto",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "|mcjJlcmV6VXF4a2pwMUMzbG1JcUJ0THpscW9YaE5MaDd8aHR0cDovL2Ntcy5rdWJveXMudG9wL2FwcHRvL3Yx"
         },
         {
             "key": "橘子",
@@ -135,7 +145,7 @@
             "key": "蚂蚁",
             "name": "🐜蚂蚁┃直连",
             "type": 3,
-            "api": "csp_Mayiys",
+            "api": "csp_MYYS",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
