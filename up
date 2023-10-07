@@ -394,7 +394,8 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            }
+            },
+            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
         },
         {
             "key": "csp_xpath_kuqimv",
