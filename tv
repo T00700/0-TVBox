@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;b16805667428f2e36ac34a8d31af2ffe",
+    "spider": "./jar/fan.jar;md5;9c19e5e073a7f0bd30fed7305fe1bfba",
     "sites": [
         {
             "key": "js豆瓣",
@@ -148,7 +148,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://cz01.pw/"
+            "ext": "https://www.czz9.com/"
         },
         {
             "key": "csp_DiDuan",
@@ -228,13 +228,14 @@
             "changeable": 1
         },
         {
-            "key": "csp_Auete",
+            "key": "Auete",
             "name": "🏝奥特┃直连",
             "type": 3,
             "api": "csp_Auete",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "http://www.aueteys.com/"
         },
         {
             "key": "csp_zxzj",
