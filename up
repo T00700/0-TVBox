@@ -12,7 +12,7 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;9c19e5e073a7f0bd30fed7305fe1bfba",
+    "spider": "./jar/fan.jar;md5;5bb9b815e54c4103323386d637fada95",
     "sites": [
         {
             "key": "js豆瓣",
@@ -54,13 +54,10 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/token.txt+4k|fhd|auto",
             "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
+            "ext": "./json/token.txt+4k|fhd|auto$$$http://fd.888484.xyz:33/$$$弹"
         },
+           
         {
             "key": "csp_Nmys",
             "name": "👨‍🌾农民影视",
@@ -111,11 +108,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czz9.com/",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
+            "ext": "https://www.czz9.com/"
         },
         {
             "key": "Mino",
@@ -128,24 +121,54 @@
             "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir"
         },
         {
-            "key": "橘子",
-            "name": "🍊橘子┃App",
+            "key": "热剧猫",
+            "name": "🦄️热剧猫┃App",
             "type": 3,
             "api": "csp_AppMao",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbc1AGIRPUzIPtbexyEhcScOf53TW0F+D7rX5HCm9c3SL03FsmGsmXS04XZMlbxEVW4/ZgwONbnobxj8KzfJ8GvG6ETdzBCbfFw0WuoidvgjRb4EpUL8NqDk4unKXRBhjcoD99QoAIMsLc24lek3u9uBO+6JFAf41Z7sYL00hBBNM3xJsYyXCuX4BrzNYpZRwmfepqhEHQ08b/50BTD4Smp257RWMVpiQ1Tu3ht+MPo7oQAceapuyQGcL2fslXXHVrrb+9pyjtI9Qzph9HFoNJPIj5EXV+qGRI0CjSm9Dbm5nQFlZ6G2jvORw+5LMziXmuxDZH4U7qpnfjh/8hAu18546qyGmiWVI2mfDrKkVmeLq1KFA0rA="
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbdFaCsJaXjxO/+6vlgsLQ5varHTH2V6Poee7Djr8Jz/R+GIpgnJnQ3krSZ9SRy8UOIbtjH3TUm9NrVkdyuAzfem0fT9yKBXkOxVq28ux/jLTJMYnSI8n4EpQvk6AcXZDdLamk1stGuAZbzYeBh2My+RQq8g8DOoxWcAPNXU6TCF5jgsdTzPvgFskwBJVrfZjjcLynmEhXHwD36QAZUcqhamhzRyjdcb79DK8hcq2QozIfxkadpK4dn0jw8kudBzd9MPssMT5nMxQ6IVYREIIDc4V1n7BrbKIGxS3a1lDUk9zW38G12j+2tNw4fXClSbM81zAdcM5lLT66EPmpxSW2Jd/0Hff1QwiiAuu8NNT2/u5raxPwPzQtA=="
         },
         {
-            "key": "伊人",
-            "name": "💡伊人┃App",
+            "key": "一念",
+            "name": "👀一念┃App",
             "type": 3,
             "api": "csp_AppMao",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbdNRCYYRDm4TsLq0wUJWQNbPrS+dwlqC76K9AyqwdDOMy2knm2EiXG8sW5g6aRAKRJjRnA/LOWYSnzESgu5FcYzNNG0xf0roJwduq4GBwQbeWKtxcqo79EgUmk7wBAMaZaqxv0MMB5dPInMBPwj4oPNY9+tFWr1sZPUWRk05bRxflgcCQg7kmHtl4gEYx5tMq/vShEkoZE45l40NTUAGsbOf4i+SQPTRyR7qlo+cV4WBYm4fabOOK2gUwMdqZn7P8u3StM3Sk8ps5+RaATUfFuU1+0/f847wGAW7SmBGalhgcQsG2RPKhagprd32llnF+1i1CLkWiYTK/QyhtCfS+tl+jAy/0UlG7Fq1kZlC1+2steoOnaic6WQq9F2nYpq7a3QVfAbWyvIP+/mhJrtEycOuc999pfBr4Ub+yNWhIq06XaaI3EDX8h/oclhtPP9fIlIhPPNgZO/XgdX80PcGXcTIWl8DR+FW+NoZjzcXq7OcD0dUFMueE5ZrJSRVLEAAhzFhoC3qYpmCY6xDrcbPMXuUKB0LcE9qyfm9cw0EjDJZyt2PsVT3JxLuXjMgv0cdhPu2rxnJ36urzE1RBmNugqEbsINIg+pun7OUaS3KO4jwHZOxvHmrGLdzQzxgZxgwG5Z8t4e08xaRZXOd1ujQ/ZNncMJrpVQhY50nmk1+MmPHw5qapafKYcsoRMMM1d7R742jf7MMtSgdFXU/bxzyhaXS5F7mXCee3u5TGKtBujCsllb+9igo+ZO9ThCEx07MrJ7TMEHHBrtYDaoFiOfBRLGzrvXlAcZ0QI2pDiED6vcJTJwEs4mpEPwKFawqojXYteQ0x0NSPvk3XLyMkuMCLdyL9JWKJTh2rTor4R5q5VkYgBIqpFOxIdNtJlr0RYBXf69Do7jNWNxGSYfMO/Qns/JD"
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddka4wFqHtLjQhalHiNTh6w9Of9ADGP70IR6Z3jEgnqm+oREdxZJm8nktRA8E9V38KMk34oPdI8ugMCclsIKNWf0oEEFd7jQg+J06kiGg57gdJuphV2ODd3REMVHU34759SkYEr7GD0jCiO/TMpAnm1emAQazjYwcmYLuSflAsqMVHYxrRyfbS3OLioIlQzOBbFGItBtIH0Vv1gtD3PSTJGX1waF9CIXAG1ybvpNQq5OyVk3/tqSSPCtQmk6jE/gGfgSfZweIe2DCznW9/i0bY8Zgs2L/Ux6Y8yI2fjwRz6k++NcfQIj0sZjnpv7JmoMO+HfQ+lqKgJbQFoIwooyyYo6SgNP1zJ/SS"
+        },
+        {
+            "key": "追忆",
+            "name": "🐿追忆┃App",
+            "type": 3,
+            "api": "csp_AppSK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjPcVZY48PN/RIZ5UWFrphwLIZAH4tPWnVF46Ct0RcDCdqQ/iHaxETP6KexDCalbnKb235g2zI+TmNzCM49OFRCWdee3hnULz5M1CsK3w=="
+        },
+        {
+            "key": "皮皮虾",
+            "name": "🦀皮皮虾┃App",
+            "type": 3,
+            "api": "csp_AppSK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjPcVZY48PN/RIZ5UWFrphwLIZTGJxVRTBDqPTqg1hIUJXNp3iJg1HE6Ku0DDW8bH6VwnMqkHV3FGMiXNUxKFVOX9ue0RveKTtG0CYRkK0lRw=="
+        },
+        {
+            "key": "觅视频",
+            "name": "🗽觅视频┃App",
+            "type": 3,
+            "api": "csp_AppSK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjPcVZY48PN/RIZ5UWFro5tctBJAZhIEz5OvLqy0VZGH5/R/mCR2kPI46ezGyKoem+Vym4tmTJ5Gio/CM0pPlNKXd+d2hTULzhB0SoYmLd4"
         },
         {
             "key": "布雷",
@@ -398,18 +421,32 @@
             "ext": "./json/企鹅直播.json"
         },
         {
-            "key": "csp_xpath_qiumi",
-            "name": "⚽Jrs球迷",
+            "key": "csp_qiumi",
+            "name": "⚽ Jrs┃球迷",
             "type": 3,
-            "api": "csp_XPath",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/JRKAN直播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
             },
-            "ext": "./json/dj看球.json"
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "csp_310直播",
+            "name": "⚽310┃看球",
+            "type": 3,
+            "api": "./js/lib/drpy2.min.js",
+            "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/310直播.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "csp_Bili",
@@ -419,17 +456,12 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": {
-                "json": "./json/bibilili.json",
-                "cookie": "buvid3=720B9154-E959-C159-1879-0A791618730423636infoc; b_nut=1689262023; i-wanna-go-back=-1; b_ut=7; _uuid=B5C6C10EB-9118-9F103-9C109-E4ADCC67BA2823229infoc; FEED_LIVE_VERSION=V8; buvid4=615CA3EB-889B-740E-9AF8-EE24213502EA24295-023071323-XjqwluPzGayI%2FjwyC2nDJA%3D%3D; CURRENT_FNVAL=4048; rpdid=|(k|ml~Y~))J0J'uY)mkYk|JY; fingerprint=bae107a3bac07a1082bf9b00ccd5c8a4; buvid_fp_plain=undefined; PVID=1; buvid_fp=bae107a3bac07a1082bf9b00ccd5c8a4; innersign=0; b_lsid=A11D12D6_18B0A212C27; header_theme_version=CLOSE; home_feed_column=4; browser_resolution=937-956; SESSDATA=ef0099d4%2C1712234047%2Cf786c%2Aa2CjDALw-VonK2tcPP1yCLz5xcxWOTIR0YLn37N_Y_a-vskj9gdHPkYv2L6uZR2MsLPkUSVmdpTzF0bzBiUUJvTkpCYnRkY25fUTdWZUNFWEc1NEl5UDRMNngwM2d6ZGNJMURlNUVvaWNQQkxLZG9xQnhjZUhyamdpMndnZ0F1Q1JKY3Z4MlZHNzB3IIEC; bili_jct=e0341e9d197a8df0351575f941029a4c; DedeUserID=11861127; DedeUserID__ckMd5=9ad5dcc992460a4e; sid=m99u4w4z",
-                "type": "风景4K"
-              },
+            "ext": "./json/bibilili.json",
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-              },
-            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
-        },
+              }
+            },
         {
             "key": "csp_xpath_kuqimv",
             "name": "🎤酷奇MV",
