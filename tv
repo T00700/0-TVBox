@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "./jar/fan.jar;md5;5bb9b815e54c4103323386d637fada95",
+    "spider": "./jar/fan.jar;md5;3eb3583bc70b80ec673d88397967dbec",
     "sites": [
         {
             "key": "js豆瓣",
@@ -132,15 +132,6 @@
             "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTA5hPEi0VqbGzxElfS8iS6G6dxFvYo6amRiS2bHOKw3Esnj46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkaM/FqHtLjQhalHiNTh6w9P3uBbzOpYja64omwk1u3D/dlZ+e5i4lng3PuAGTEUBPE34oPNY9+tFWr0Ibd9pVxAueSBD3QUsYQDulUET8DZ4nPtGpPvrhlgkKksJ9s4mWmxer4u57B2OO9qc8jua09TybbufTjMaeJGQem8U1MtbZnyk1e3UtOPZyIlX24R7PWpyLc4U0VzmkquLAB3kRiQZa1pOYUYuwm6vu/8spvSLhGbMhy+5bLc5qpPAk0mnh1ezzPQa03Cfg3JV6WGwrolC1+2steoOnaic6WQq9F2nYpq7a3QVfAbWyvIP+/mhJrtEycOuc999pfBr4Ub+yNWhIq06XaaI3EDX8h/oclhtPP9fIlIhPPNgZO/XgdX80PcGXdT2F0EtU+FJ+NoZjzcXq7OcD0dUFMudEpZ/ISVFLEQAhzFhoC3qYpmCY6xDrfjIL1W2Yh0LSk9qyfm9cw0EjDJZyt2PsVT3JxLuXjMgv0cdhPu2sTfBlL672ElQFkkjgpIL+YIQoLV69KeUYi3LYYjLFdixymHlDbdyGT19XRgwG5Z8t4e08xaRZXOd1ujQ/ZNncMJrpVQhY40mmnNcN2PHw5qapafKYcsoRMMM1d7R742jf5UE/zwNFXI+WRzxjrXerF/2fmmU0+8OGIVz9SWsllf++zV27ZOwFQ6qy07MrJ7TMEHHBrtYDaoFiOfBRLGyodnWIp1ZCPGqIxcA/5s+cdVwkd2wJdB1OKIqhz+Eg+0zmTRTFNUYUZWXvKEhDs7BuoaAQz5ArXla7xAg/F0Z1goy7k+xJZlmJlj1RJ5KdKlUvrDEQ8lCSIzPNPMz+g=="
         },
         {
-            "key": "JOJO",
-            "name": "🕊︎JOJO┃直连",
-            "type": 3,
-            "api": "csp_JOJO",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "一起看 ",
             "name": "🎉一起┃App",
             "type": 3,
@@ -178,7 +169,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czz9.com/"
+            "ext": "https://www.czzy88.com/"
         },
         {
             "key": "csp_DiDuan",
@@ -220,15 +211,6 @@
             "ext": "https://www.libvio.pro/"
         },
         {
-            "key": "kuaikan",
-            "name": "👀快看┃App",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "csp_Xinsj",
             "name": "🐼视觉┃直连",
             "type": 3,
@@ -249,15 +231,6 @@
             "changeable": 1
         },
         {
-            "key": "csp_Vofl",
-            "name": "🎈Vofl┃直连",
-            "type": 3,
-            "api": "csp_Voflix",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "Auete",
             "name": "🏝奥特┃直连",
             "type": 3,
@@ -265,7 +238,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "http://www.aueteys.com/"
+            "ext": "https://haozhansou.com/"
         },
         {
             "key": "csp_zxzj",
@@ -278,16 +251,6 @@
             "ext": "https://www.zxzj.pro/"
         },
         {
-            "key": "csp_Ysgc",
-            "name": "🏭工场┃直连",
-            "type": 3,
-            "api": "csp_Ysgc",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.ysgc1.cc/"
-        },
-        {
             "key": "csp_Bttoo",
             "name": "🍄比特┃直连",
             "type": 3,
@@ -295,6 +258,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "JOJO",
+            "name": "🕊︎JOJO┃直连",
+            "type": 3,
+            "api": "csp_JOJO",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "新6V",
