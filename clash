@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-28 10:30:59
+# 创建时间：2023-11-04 10:50:07
 # 使用模版：V2RaySE 默认模版
-# 节点数量：40
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -11,329 +11,337 @@ log-level: info
 external-controller: 0.0.0.0:9090
 dns:
   enabled: true
-  nameserver:
-    - 119.29.29.29
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸丨美国丨CDN丨1","type":"vmess","server":"92.38.170.10","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨CDN丨2","type":"vmess","server":"92.223.63.21","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨CDN丨3","type":"vmess","server":"92.223.63.11","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇩🇪丨德国丨CDN丨4","type":"vmess","server":"92.223.124.15","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇪🇬丨埃及丨CDN丨5","type":"vmess","server":"92.223.47.62","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨CDN丨6","type":"vmess","server":"92.38.159.14","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇦🇪丨阿联酋丨CDN丨7","type":"vmess","server":"185.163.3.4","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨CDN丨8","type":"vmess","server":"5.8.92.5","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨CDN丨9","type":"vmess","server":"185.101.136.9","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇬🇧丨英国丨CDN丨10","type":"vmess","server":"93.123.11.11","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨IPV4丨1","type":"vmess","server":"92.223.63.27","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨2","type":"vmess","server":"45.65.8.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇸🇬丨新加坡丨IPV4丨3","type":"vmess","server":"92.223.116.205","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇦🇺丨澳大利亚丨IPV4丨4","type":"vmess","server":"92.223.78.22","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇸🇪丨瑞典丨IPV4丨5","type":"vmess","server":"80.240.113.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨6","type":"vmess","server":"92.38.170.10","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇯🇵丨日本丨IPV4丨7","type":"vmess","server":"92.223.63.11","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨8","type":"vmess","server":"185.101.136.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨9","type":"vmess","server":"92.223.68.26","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨10","type":"vmess","server":"185.101.136.9","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇿丨乌兹别克斯坦丨IPV4丨11","type":"vmess","server":"37.110.209.228","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇧🇩丨孟加拉国丨IPV4丨12","type":"vmess","server":"43.245.140.2","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨13","type":"vmess","server":"92.38.159.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇬🇧丨英国丨IPV4丨14","type":"vmess","server":"93.123.11.11","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇦🇴丨安哥拉丨IPV4丨15","type":"vmess","server":"102.130.69.141","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV4丨16","type":"vmess","server":"92.223.120.15","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇸🇬丨新加坡丨IPV4丨17","type":"vmess","server":"92.223.116.220","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇵🇱丨波兰丨IPV4丨18","type":"vmess","server":"92.223.92.25","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇦丨乌克兰丨IPV4丨19","type":"vmess","server":"79.133.108.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇨🇦丨加拿大丨IPV4丨20","type":"vmess","server":"5.101.222.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨1","type":"vmess","server":"92.38.170.10","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨2","type":"vmess","server":"92.223.120.15","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨3","type":"vmess","server":"80.93.221.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨4","type":"vmess","server":"92.38.170.8","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨5","type":"vmess","server":"92.38.170.7","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨6","type":"vmess","server":"185.101.136.13","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨7","type":"vmess","server":"92.223.120.15","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨8","type":"vmess","server":"92.38.170.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇹🇭丨泰国丨IPV6丨9","type":"vmess","server":"5.252.26.10","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
-  - {"name":"🇺🇸丨美国丨IPV6丨10","type":"vmess","server":"45.65.8.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"c.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨CDN丨1","type":"vmess","server":"5.252.26.4","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨CDN丨2","type":"vmess","server":"92.38.170.7","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨CDN丨3","type":"vmess","server":"5.252.26.7","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨CDN丨4","type":"vmess","server":"92.223.120.13","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨CDN丨5","type":"vmess","server":"92.38.170.6","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇨🇦丨加拿大丨CDN丨6","type":"vmess","server":"5.101.222.4","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨CDN丨7","type":"vmess","server":"5.252.26.5","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨CDN丨8","type":"vmess","server":"5.252.26.8","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨CDN丨9","type":"vmess","server":"5.252.26.9","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨CDN丨10","type":"vmess","server":"5.252.26.7","port":80,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨CDN丨11","type":"vmess","server":"92.223.68.27","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇸🇬丨新加坡丨CDN丨12","type":"vmess","server":"92.223.116.222","port":443,"cipher":"auto","uuid":"a967d8b1-b96c-4120-8e8e-f1acd552a64a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cc","headers":{"host":"a.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨IPV4丨1","type":"vmess","server":"5.252.26.5","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇸🇬丨新加坡丨IPV4丨2","type":"vmess","server":"92.223.116.223","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨IPV4丨3","type":"vmess","server":"5.252.26.7","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨IPV4丨4","type":"vmess","server":"5.252.26.8","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨5","type":"vmess","server":"185.101.136.9","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇲🇽丨墨西哥丨IPV4丨6","type":"vmess","server":"213.156.144.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨7","type":"vmess","server":"45.65.8.4","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨8","type":"vmess","server":"185.101.136.12","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇹🇭丨泰国丨IPV4丨9","type":"vmess","server":"5.252.26.7","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨10","type":"vmess","server":"185.101.136.29","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇧🇬丨保加利亚丨IPV4丨11","type":"vmess","server":"5.101.219.6","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇿丨乌兹别克斯坦丨IPV4丨12","type":"vmess","server":"37.110.209.228","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨13","type":"vmess","server":"92.223.120.13","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇧🇭丨巴林丨IPV4丨14","type":"vmess","server":"62.209.27.232","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇿丨乌兹别克斯坦丨IPV4丨15","type":"vmess","server":"37.110.209.228","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇵🇸丨巴勒斯坦丨IPV4丨16","type":"vmess","server":"82.213.5.50","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨17","type":"vmess","server":"185.101.136.30","port":443,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇺🇸丨美国丨IPV4丨18","type":"vmess","server":"92.223.107.45","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇸🇬丨新加坡丨IPV4丨19","type":"vmess","server":"92.223.116.222","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
+  - {"name":"🇮🇶丨伊拉克丨IPV4丨20","type":"vmess","server":"5.1.106.249","port":80,"cipher":"auto","uuid":"2cec10e0-0201-40de-91e2-1443fbae4a8d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/abc","headers":{"host":"b.xiaohuozi.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,46 +364,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸丨美国丨CDN丨1
-      - 🇯🇵丨日本丨CDN丨2
-      - 🇯🇵丨日本丨CDN丨3
-      - 🇩🇪丨德国丨CDN丨4
-      - 🇪🇬丨埃及丨CDN丨5
-      - 🇺🇸丨美国丨CDN丨6
-      - 🇦🇪丨阿联酋丨CDN丨7
-      - 🇺🇸丨美国丨CDN丨8
-      - 🇺🇸丨美国丨CDN丨9
-      - 🇬🇧丨英国丨CDN丨10
-      - 🇯🇵丨日本丨IPV4丨1
-      - 🇺🇸丨美国丨IPV4丨2
-      - 🇸🇬丨新加坡丨IPV4丨3
-      - 🇦🇺丨澳大利亚丨IPV4丨4
-      - 🇸🇪丨瑞典丨IPV4丨5
-      - 🇺🇸丨美国丨IPV4丨6
-      - 🇯🇵丨日本丨IPV4丨7
+      - 🇹🇭丨泰国丨CDN丨1
+      - 🇺🇸丨美国丨CDN丨2
+      - 🇹🇭丨泰国丨CDN丨3
+      - 🇺🇸丨美国丨CDN丨4
+      - 🇺🇸丨美国丨CDN丨5
+      - 🇨🇦丨加拿大丨CDN丨6
+      - 🇹🇭丨泰国丨CDN丨7
+      - 🇹🇭丨泰国丨CDN丨8
+      - 🇹🇭丨泰国丨CDN丨9
+      - 🇹🇭丨泰国丨CDN丨10
+      - 🇺🇸丨美国丨CDN丨11
+      - 🇸🇬丨新加坡丨CDN丨12
+      - 🇹🇭丨泰国丨IPV4丨1
+      - 🇸🇬丨新加坡丨IPV4丨2
+      - 🇹🇭丨泰国丨IPV4丨3
+      - 🇹🇭丨泰国丨IPV4丨4
+      - 🇺🇸丨美国丨IPV4丨5
+      - 🇲🇽丨墨西哥丨IPV4丨6
+      - 🇺🇸丨美国丨IPV4丨7
       - 🇺🇸丨美国丨IPV4丨8
-      - 🇺🇸丨美国丨IPV4丨9
+      - 🇹🇭丨泰国丨IPV4丨9
       - 🇺🇸丨美国丨IPV4丨10
-      - 🇺🇿丨乌兹别克斯坦丨IPV4丨11
-      - 🇧🇩丨孟加拉国丨IPV4丨12
+      - 🇧🇬丨保加利亚丨IPV4丨11
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨12
       - 🇺🇸丨美国丨IPV4丨13
-      - 🇬🇧丨英国丨IPV4丨14
-      - 🇦🇴丨安哥拉丨IPV4丨15
-      - 🇺🇸丨美国丨IPV4丨16
-      - 🇸🇬丨新加坡丨IPV4丨17
-      - 🇵🇱丨波兰丨IPV4丨18
-      - 🇺🇦丨乌克兰丨IPV4丨19
-      - 🇨🇦丨加拿大丨IPV4丨20
-      - 🇺🇸丨美国丨IPV6丨1
-      - 🇺🇸丨美国丨IPV6丨2
-      - 🇺🇸丨美国丨IPV6丨3
-      - 🇺🇸丨美国丨IPV6丨4
-      - 🇺🇸丨美国丨IPV6丨5
-      - 🇺🇸丨美国丨IPV6丨6
-      - 🇺🇸丨美国丨IPV6丨7
-      - 🇺🇸丨美国丨IPV6丨8
-      - 🇹🇭丨泰国丨IPV6丨9
-      - 🇺🇸丨美国丨IPV6丨10
+      - 🇧🇭丨巴林丨IPV4丨14
+      - 🇺🇿丨乌兹别克斯坦丨IPV4丨15
+      - 🇵🇸丨巴勒斯坦丨IPV4丨16
+      - 🇺🇸丨美国丨IPV4丨17
+      - 🇺🇸丨美国丨IPV4丨18
+      - 🇸🇬丨新加坡丨IPV4丨19
+      - 🇮🇶丨伊拉克丨IPV4丨20
 
 rules:
 # 本地/局域网地址
