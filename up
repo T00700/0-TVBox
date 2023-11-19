@@ -378,6 +378,18 @@
             "ext": "./json/789ba.json"
         },
         {
+            "key": "看球",
+            "name": "⚽看球",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+              "type": "list"
+            },
+            "jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+        },
+        {
             "key": "88js",
             "name": "🏀88看球",
             "type": 3,
