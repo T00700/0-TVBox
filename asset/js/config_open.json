@@ -2,6 +2,13 @@
   "video": {
     "sites": [
       {
+        "key": "douban",
+        "name": "🏓豆瓣",
+        "type": 3,
+"indexs": 1,
+        "api": "douban_open.js"
+      },	
+      {
         "key": "kunyu77",
         "name": "👒七七",
         "type": 3,
@@ -33,18 +40,24 @@
         "ext":"http://panel.ryuan.top/ali/token/99233926c8f84693b8618dde92512450"
       },
       {
-        "key": "yt",
-        "name": "🏓影探",
+        "key": "wobg",
+        "name": "💂‍老表",
         "type": 3,
-        "api": "assets://js/yt_open.js",
-        "ext": "http://ytcms.lyyytv.cn/api.php/app/"
-      },
+        "api": "wobg_open.js",
+        "ext": "http://panel.ryuan.top/ali/token/99233926c8f84693b8618dde92512450"
+    },	
       {
         "key": "17kan",
         "name": "17看",
         "type": 3,
         "api": "assets://js/yqktv_open.js"
       },
+      {
+        "key": "bulei",
+        "name": "🏓布蕾",
+        "type": 3,
+        "api": "bulei_open.js"
+    },
       {
         "key": "nangua",
         "name": "⏮️南瓜",
@@ -77,23 +90,35 @@
         "api": "assets://js/zxzj_open.js"
       },
       {
-        "key": "230",
-        "name": "🎧听书",
+        "key": "rejumao",
+        "name": "🏓多多丨热剧",
         "type": 3,
-        "api": "assets://js/230ts_open.js"
-      },
-      {
-        "key": "kuqi",
-        "name": "🎤酷奇mv",
+        "api": "apptov5_open.js",
+        "ext": {
+            "domains": [
+                "https://app-1253196701.cos.ap-shanghai.myqcloud.com/app.txt",
+                "https://www.daenwl.com/app.txt"
+            ],
+            "aesKey": "8y8sDX3ZG22yACH3ZM5KfNGieTxEMKFe",
+            "aesIV": "WxRAbh68C8pP6SpN",
+            "rasPublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6Ykikz4aIqkJC899VxwX\nwx27bZJGV/fDbgAHtXxZ73Mq8QWuPfeAanWDWiGPhJu5aVQndADi7B0L5RBIrirf\n6lIzA+l8Ubt6+nvPYQ9NSlRkObE4ML2Hw7ccAmcqzDD0vplJz7Y8o7qKIoyfK5NP\nXDuiv52HgbyEP6KlWCiDfMuIsAA+/3x9C/0RDRgjf3x+24EuGOD6Gnw+rVJCOb64\nW4KZ7vH/uhaQSLLnNYF9VD00c072tOeaBt2mElexJN66gcP65kmrkI5grFz2RcEg\nIEkwUcYBNiFeHUcFyQZuDj/DLqQidwMhFJfkcUuMtByR9cYl9BpqT/3NKVQ1EPrV\n7QIDAQAB\n-----END PUBLIC KEY-----",
+            "ic": "fwEUWytkwJqHICtu/kNrXOVGQAzWUw1mGuQYdT1heOKZ6vEEI+4jf6LAHJ/f4h39ZR2WL4fccGchSoCm+pqkBRi8asSMqZzKGGfY8ejzrYHxDjiTOhs4B6p/iC8Nrj+bcCmXAjVNksfxlcjU6JlbRQ=="
+        }
+    },	
+    {
+        "key": "zhuiyi",
+        "name": "🏓多多丨追忆",
         "type": 3,
-        "api": "assets://js/kuqimv_open.js"
-      },
-      {
-        "key": "短视频",
-        "name": "📽️短视频",
-        "type": 3,
-        "api": "assets://js/sharenice_open.js"
-      },
+        "api": "apptov5_open.js",
+        "ext": {
+        "domains": ["https://xtao-1253811961.cos.ap-chengdu.myqcloud.com/appto/xtao.json"],
+        "aesKey": "we2CwNfG7PJppQmBfX8MMMQaWbSdcDXi",
+        "aesIV": "DnT3jxT8RYsa8ctc",
+        "rasPublicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsKLhkMcBpvQ7x1bhAVDgNWdhJpkVUhWQaunZoDD7IwUNkkzl3cgHOBVo6H8IkoTnMAHwWnLIK9xHTwtN0ikAbZvlIOrOWwrhWwGYUAVSAtZm7FDHyVQlW3ZSv+oeBceIE7MZbCi7ZmS3Ft2XEdEEyjXdvaQN8f+1ORmf/AsMTwfX2QhsjD1qNtq+pCw9wnd+AWGW6lAG8mxNTygfWqKT2GZsor5v3qq/qsMiFL7aUy/ZiBlHInzC3R9ZP6mWICt72Su+C9VzH+LHdiSMWmpZ1uT7EPJfh0MgzQUbIhNPVMeOBkDcf93DzO+zTDznpPCed12OORZL5PDg/2lK8i+HCwIDAQAB\n-----END PUBLIC KEY-----",
+        "ic": "4Dqrm2DknrkdH3qOh7rE2nwK9BUd5cMVriFc+kWKpUedUJt6cLXHcROX9ps/2rBoBEftIjKkCAB5PSxCJUoKm/1n1mEZt7hQLSyIco9fRfS1QwyZItfMvHbjPJoB0vQnOvlcl7C8lgRZHFQLVXh9iA=="
+       }         
+       }	,
+  
       {
         "key": "bilibili",
         "name": "🅱BiliBili",
@@ -142,6 +167,12 @@
           "type": 10,
           "api": "assets://js/230ts_book_open.js"
       },
+      {
+        "key": "zz123",
+        "name": "🏓多多丨zz123",
+        "type": 10,
+        "api": "zz123_open.js"
+    },     
       {
         "key": "laobaigushi",
         "name": "老白故事",
