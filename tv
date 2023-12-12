@@ -13,7 +13,7 @@
         }
     ],
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;1f58870cbfc2419c6fdd6c8a071bd800",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;7f5b55c37dba231f3862cd1a8c8ea932",
     "sites": [
         {
             "key": "js豆瓣",
@@ -189,7 +189,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://czz9.com/"
+            "ext": "https://www.czzy33.com/"
         },
         {
             "key": "csp_DiDuan",
