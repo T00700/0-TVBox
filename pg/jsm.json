@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
+	"spider": "./pg.jar;md5;8188ce5cb20658231bfeca627e656669",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -39,7 +39,7 @@
 		},
 		{
 			"key": "AliShare",
-			"name": "阿里云盘分享",
+			"name": "阿里云盘影视分享",
 			"type": 3,
 			"api": "csp_AliShare",
 			"searchable": 1,
@@ -48,6 +48,18 @@
 			"filterable": 0,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$./lib/alishare.txt"
+		},
+		{
+			"key": "AliShareEBook",
+			"name": "阿里云盘书籍分享",
+			"type": 3,
+			"api": "csp_AliShare",
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"filterable": 0,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$./lib/alishare.ebook.txt"
 		},
 		{
 			"key": "QuarkShare",
