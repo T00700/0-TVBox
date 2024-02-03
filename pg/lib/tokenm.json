@@ -1,8 +1,8 @@
 {
-    "token": "0a076d35d0174db5b060fe1337017cb6",
-    "open_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwMzIwMGFhMjIyODg0YzY4YTAyMjFhYmYxZjY3ODU0MSIsImF1ZCI6Ijc2OTE3Y2NjY2Q0NDQxYzM5NDU3YTA0ZjYwODRmYjJmIiwiZXhwIjoxNzE0Njg3Mjg0LCJpYXQiOjE3MDY5MTEyODQsImp0aSI6IjZiMmFiYzlmMDRjZjRlMzM5ZTgzZGYxYjgxYzZlYWE1In0.vs33zGd_7maG-281Gf1cMwriMfIEZMsC6Q9D-l2ehDx16KMMamiSmXl8G5v_xzzQMHQGdIB-oBsoNM3slCTYWA",
+    "token": "",
+    "open_token": "",
     "open_api_url": "https://aliyundrive-oauth.messense.me/oauth/access_token",
-    "thread_limit": 10,
+    "thread_limit": 32,
     "is_vip": false,
     "vip_thread_limit": 0,
     "vod_flags": "4k|4kz|auto",
