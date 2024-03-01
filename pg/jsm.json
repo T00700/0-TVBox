@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;cdd248365c17cca8127ba90cd2218423",
+	"spider": "./pg.jar;md5;645ac338959e977cbc8bbd6c359a7a29",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -504,6 +504,14 @@
 			"api": "csp_TTian",
 			"playerType": 1,
 			"ext": "http://op.ysdqjs.cn$$$null$$$1"
+		},
+		{
+			"key": "追剧",
+			"name": "追剧┃App",
+			"type": 3,
+			"api": "csp_TTian",
+			"playerType": 1,
+			"ext": "http://app.kzjtv.com$$$null$$$1"
 		},
 		{
 			"key": "賤賤",
