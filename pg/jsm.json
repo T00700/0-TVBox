@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;740d2a732da879f7e620bd6c70dce295",
+	"spider": "./pg.jar;md5;478f0b7ca876be57030b708d6dcd99c3",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -166,7 +166,7 @@
 		},
 		{
 			"key": "Wogg",
-			"name": "玩偶哥哥|阿里",
+			"name": "玩偶哥哥|网盘",
 			"type": 3,
 			"api": "csp_Wogg",
 			"quickSearch": 1,
@@ -174,6 +174,17 @@
 			"filterable": 1,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://wogg.xyz/$$$null$$$1$$$./lib/wogg.json"
+		},
+		{
+			"key": "Moli",
+			"name": "HDmoli|网盘",
+			"type": 3,
+			"api": "csp_Moli",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"
 		},
 		{
 			"key": "影视车",
