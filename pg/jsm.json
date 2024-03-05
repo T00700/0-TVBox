@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;478f0b7ca876be57030b708d6dcd99c3",
+	"spider": "./pg.jar;md5;9658eeb13ccd1c3a4974fe8ebef23df2",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -959,6 +959,22 @@
 			"name": "酷狗",
 			"type": 3,
 			"api": "csp_Kugou",
+			"searchable": 1,
+			"changeable": 0
+		},
+		{
+			"key": "Iktv",
+			"name": "KTV",
+			"type": 3,
+			"api": "csp_Iktv",
+			"searchable": 1,
+			"changeable": 0
+		},
+		{
+			"key": "Yinyuetai",
+			"name": "音悦台",
+			"type": 3,
+			"api": "csp_Yinyuetai",
 			"searchable": 1,
 			"changeable": 0
 		},
