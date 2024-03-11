@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;0291baf74f90cc4d908393c5dcbea4bb",
+	"spider": "./pg.jar;md5;818035a55579d7d625a70c01485f1cca",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -25,6 +25,22 @@
 			"name": "本地",
 			"type": 3,
 			"api": "csp_Local"
+		},
+		{
+			"key": "PushShare",
+			"name": "我的资源分享",
+			"type": 3,
+			"api": "csp_PushShare",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 0,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "AliShare",
@@ -207,6 +223,17 @@
 			"filterable": 1,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"
+		},
+		{
+			"key": "Xpanpan",
+			"name": "小盘盘|网盘",
+			"type": 3,
+			"api": "csp_Xpanpan",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"
 		},
 		{
 			"key": "Pan99",
