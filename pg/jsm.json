@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;b2c922d0b7852816a5d81453c49aa918",
+	"spider": "./pg.jar;md5;12e1170f54c86565b5de7a828fcec770",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -212,6 +212,17 @@
 			"filterable": 1,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./lib/wogg.json"
+		},
+		{
+			"key": "影视车",
+			"name": "影视车|网盘",
+			"type": 3,
+			"api": "csp_Wogg",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.weixine.link/$$$null$$$1$$$./lib/wogg.json"
 		},
 		{
 			"key": "Xpanpan",
