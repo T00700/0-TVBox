@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;fb3f154f8056eb85d209c5b16ff15da6",
+	"spider": "./pg.jar;md5;2b35bfe18e8d9af012a315b1e31675fb",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -192,17 +192,6 @@
 			"ext": "./lib/tokenm.json$$$https://wogg.xyz/$$$null$$$1$$$./lib/wogg.json"
 		},
 		{
-			"key": "Moli",
-			"name": "HDmoli|网盘",
-			"type": 3,
-			"api": "csp_Moli",
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"
-		},
-		{
 			"key": "Wobg",
 			"name": "玩偶表哥|网盘",
 			"type": 3,
@@ -311,6 +300,17 @@
 			"filterable": 1,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://www.libvio.pro$$$null"
+		},
+		{
+			"key": "Moli",
+			"name": "HDmoli|网盘",
+			"type": 3,
+			"api": "csp_Moli",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"
 		},
 		{
 			"key": "Bt0",
