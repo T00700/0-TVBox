@@ -1,5 +1,5 @@
 {
-	"spider": "https://fork.ryuan.link:25678/pg.jar;md5;2b35bfe18e8d9af012a315b1e31675fb",
+	"spider": "./pg.jar;md5;e368a730e5c12742aaa5aa00ab31de70",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -63,7 +63,7 @@
 			"name": "阿里云盘书籍分享",
 			"type": 3,
 			"api": "csp_AliShare",
-			"searchable": 1,
+			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
 			"filterable": 0,
@@ -79,9 +79,9 @@
 			"name": "夸克云盘分享",
 			"type": 3,
 			"api": "csp_QuarkShare",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
 			"filterable": 0,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$./lib/quarkshare.txt",
@@ -95,9 +95,9 @@
 			"name": "迅雷云盘分享",
 			"type": 3,
 			"api": "csp_ThunderShare",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
 			"filterable": 0,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$./lib/thundershare.txt",
@@ -222,7 +222,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1"
+			"ext": "./lib/tokenm.json$$$https://xpanpan.site$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "Pan99",
@@ -351,7 +355,11 @@
 			"type": 3,
 			"api": "csp_EightEight",
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://662688.xyz"
+			"ext": "./lib/tokenm.json$$$https://662688.xyz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "盘友圈",
@@ -367,7 +375,11 @@
 			"type": 3,
 			"api": "csp_YiSo",
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$./lib/yiso.txt"
+			"ext": "./lib/tokenm.json$$$./lib/yiso.txt",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "混合盘",
@@ -375,7 +387,11 @@
 			"type": 3,
 			"api": "csp_HunHePan",
 			"timeout": 60,
-			"ext": "./lib/tokenm.json"
+			"ext": "./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "秒搜",
@@ -383,7 +399,11 @@
 			"type": 3,
 			"api": "csp_MiaoSou",
 			"timeout": 60,
-			"ext": "./lib/tokenm.json"
+			"ext": "./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "Funletu",
@@ -394,7 +414,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json"
+			"ext": "./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "QuarkPanso",
@@ -405,7 +429,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json"
+			"ext": "./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "Panta",
@@ -416,7 +444,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
+			"ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "DaPanSo",
@@ -438,7 +470,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.pikaso.top/$$$null"
+			"ext": "./lib/tokenm.json$$$https://www.pikaso.top/$$$null",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "Qianfan",
@@ -460,7 +496,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1"
+			"ext": "./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "YunPanOne",
@@ -648,7 +688,11 @@
 			"ext": "./js/aipanso.js",
 			"quickSearch": 1,
 			"changeable": 1,
-			"timeout": 30
+			"timeout": 60,
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "drpy_js_人人影视",
@@ -658,7 +702,11 @@
 			"ext": "./js/yyets.js",
 			"quickSearch": 1,
 			"changeable": 1,
-			"timeout": 30
+			"timeout": 60,
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "drpy_js_MP4US",
@@ -679,7 +727,11 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$./lib/4khdr.txt$$$1"
+			"ext": "./lib/tokenm.json$$$./lib/4khdr.txt$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "UP云搜",
@@ -687,7 +739,11 @@
 			"type": 3,
 			"api": "csp_UpYun",
 			"timeout": 30,
-			"ext": "./lib/tokenm.json"
+			"ext": "./lib/tokenm.json",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
 		},
 		{
 			"key": "JustLive",
