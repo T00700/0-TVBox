@@ -1,5 +1,5 @@
 {
-	"spider": "./pg.jar;md5;2b35bfe18e8d9af012a315b1e31675fb",
+	"spider": "https://fork.ryuan.link:25678/pg.jar;md5;2b35bfe18e8d9af012a315b1e31675fb",
 	"sites": [
 		{
 			"key": "豆瓣",
