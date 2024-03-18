@@ -20,7 +20,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710238671597/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710756082799/fan.txt;md5;dd909349c70fe92e82470eba611b7094",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
@@ -65,6 +65,16 @@
             "filterable": 1,
             "changeable": 0,
             "ext": "http://panel.ryuan.top/ali/token/99233926c8f84693b8618dde92512450+4k|fhd|auto$$$https://www.wogg.xyz/$$$弹"
+        },
+        {
+            "key": "苹果",
+            "name": "🍎小苹果┃复活",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "嘀嘀",
