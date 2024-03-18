@@ -1,5 +1,5 @@
 {
-	"spider": "http://64.64.242.137:5212/api/v3/file/get/815/pg.jar?sign=LsgMZ78mlo8L7Cz8HKjsWknbuXJ1R1tmvOJMiqkC7uM%3D%3A0;md5;e368a730e5c12742aaa5aa00ab31de70",
+	"spider": "https://cloud.ryuan.link/api/v3/file/get/815/pg.jar?sign=LsgMZ78mlo8L7Cz8HKjsWknbuXJ1R1tmvOJMiqkC7uM%3D%3A0;md5;e368a730e5c12742aaa5aa00ab31de70",
 	"sites": [
 		{
 			"key": "豆瓣",
