@@ -1,5 +1,5 @@
 {
-	"spider": "https://cloud.ryuan.link/api/v3/file/get/825/pg.jar?sign=AZX5cvuTQKc83Dm3khD6mYIs9u0CU-aiyYsxF6q9XxQ%3D%3A0;md5;5a52dd5320895e1ae62bcd53d01089f2",
+	"spider": "https://cloud.ryuan.link/api/v3/file/get/826/pg.jar?sign=ee5r2SR94qsokrzfg4tFKeBf-Y4UD1fi4d5FV8-MqIg%3D%3A0;md5;8f55ef9b1b9005a7653521220ae361ce",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -188,7 +188,7 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"filterable": 1,
-			"timeout": 60,
+			"timeout": 120,
 			"ext": "./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"
 		},
 		{
@@ -260,6 +260,17 @@
 			"filterable": 1,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://tv.yydsys.top/$$$null$$$1$$$./lib/wogg.json"
+		},
+		{
+			"key": "Xinshijue",
+			"name": "新视觉|网盘",
+			"type": 3,
+			"api": "csp_Xinshijue",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"
 		},
 		{
 			"key": "影视车",
