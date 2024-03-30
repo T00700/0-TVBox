@@ -20,7 +20,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
     ],
-    "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1710756082799/fan.txt;md5;dd909349c70fe92e82470eba611b7094",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1711811686605/fan.txt;md5;c8e7b51e9cf0fae22899ca9470d34c4c",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
@@ -112,7 +112,8 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "https://www.baipiaoys.com:9092/"
         },
         {
             "key": "萌米",
@@ -142,7 +143,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json"
-          },
+        },
         {
             "key": "zxzj",
             "name": "🍊在线┃外剧",
@@ -240,7 +241,7 @@
             "changeable": 1,
             "playerType": "1",
             "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jp.js"
+            "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/荐片.js"
         },
         {
             "key": "Xinsj",
@@ -469,6 +470,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "夸搜",
+            "name": "🐺夸搜┃搜索",
+            "type": 3,
+            "api": "csp_QuarkPanso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto"
         },
         {
             "key": "zhaozy",
