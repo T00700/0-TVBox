@@ -1,5 +1,5 @@
 {
-	"spider": "https://cloud.ryuan.link/api/v3/file/get/830/pg.jar?sign=_giHYc3uZE6VHlXH7JZWLfo-VsnuqdRYo3vFa4L5sy4%3D%3A0;md5;9c3ca86f40e0468d50fa68304bc22ee6",
+	"spider": "https://cloud.ryuan.link/api/v3/file/get/832/pg.jar?sign=NVuu9zM8Dk0jv2gBLcjhtdSxfw12Fia8VOV4jYGPByc%3D%3A0;md5;27891447bab9c16ce959f72f5e440626",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -574,11 +574,52 @@
 			"ext": "./lib/tokenm.json"
 		},
 		{
+			"key": "XBPQ_文才",
+			"name": "文才|XBPQ",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "https://cloud.ryuan.link/api/v3/file/get/833/XBPQ.jar?sign=kkv1Ta8OEGp0-R6Burk2XPSwgjX-BUngj_SgJyq9NPY%3D%3A0;md5;645F617A7D1C289C3FE55195FFAD19B8",
+			"ext": {
+				"分类": "国产剧&短剧&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&综艺&欧美剧&港台剧&日韩剧",
+				"分类值": "14&42&22&26&36&25&30&23&69&15&16&62",
+				"分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
+				"数组二次截取": "list\":[&&]",
+				"数组": "{&&}[不包含:]",
+				"图片": "vod_pic\":\"&&\"",
+				"标题": "vod_name\":\"&&\"",
+				"副标题": "+vod_remarks\":\"&&\"",
+				"链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+				"搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}",
+				"搜索模式": "1",
+				"搜索二次截取": "list\":[&&]",
+				"搜索数组": "{&&}[不包含:]",
+				"搜索图片": "vod_pic\"*\"&&\"",
+				"搜索标题": "vod_name\"*\"&&\"",
+				"搜索副标题": "type_name\":\"&&\"",
+				"搜索链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
+				"影片类型": "vod_class\"*\"&&\"",
+				"导演": "vod_director\"*\"&&\"",
+				"主演": "vod_actor\"*\"&&\"",
+				"简介": "vod_content\"*\"&&\"",
+				"线路二次截取": "\"list\":[&&]",
+				"线路数组": "\"vod_play_from\":&&,",
+				"线路标题": "\"&&\"",
+				"播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
+				"播放二次截取": "",
+				"播放列表": "表&&表",
+				"播放标题": "题&&题",
+				"播放链接": "链&&链",
+				"嗅探词": ".m3u8",
+				"播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad",
+				"免嗅": "0"
+			}
+		},
+		{
 			"key": "XBPQ_BaiPiao",
 			"name": "白嫖影视|XBPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "https://cloud.ryuan.link/api/v3/file/get/831/XBPQ.jar?sign=6gMiEgMMiuW8mEPID5C21xewDGSO6lf6MiM9-oAApSc%3D%3A0;md5;11F37D092DB963DDAB4B3B61607D473E",
+			"jar": "https://cloud.ryuan.link/api/v3/file/get/833/XBPQ.jar?sign=kkv1Ta8OEGp0-R6Burk2XPSwgjX-BUngj_SgJyq9NPY%3D%3A0;md5;645F617A7D1C289C3FE55195FFAD19B8",
 			"ext": {
 				"地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
 				"分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
@@ -586,22 +627,11 @@
 			}
 		},
 		{
-			"key": "XBPQ_HuanYuXing",
-			"name": "HuanYuXing|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "https://cloud.ryuan.link/api/v3/file/get/831/XBPQ.jar?sign=6gMiEgMMiuW8mEPID5C21xewDGSO6lf6MiM9-oAApSc%3D%3A0;md5;11F37D092DB963DDAB4B3B61607D473E",
-			"ext": {
-				"分类url": "https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-				"分类": "电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"
-			}
-		},
-		{
 			"key": "XBPQ_黑狐影院",
 			"name": "黑狐影院|XBPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "https://cloud.ryuan.link/api/v3/file/get/831/XBPQ.jar?sign=6gMiEgMMiuW8mEPID5C21xewDGSO6lf6MiM9-oAApSc%3D%3A0;md5;11F37D092DB963DDAB4B3B61607D473E",
+			"jar": "https://cloud.ryuan.link/api/v3/file/get/833/XBPQ.jar?sign=kkv1Ta8OEGp0-R6Burk2XPSwgjX-BUngj_SgJyq9NPY%3D%3A0;md5;645F617A7D1C289C3FE55195FFAD19B8",
 			"ext": {
 				"站名": "黑狐影院",
 				"主页url": "http://fagmn.com",
@@ -643,7 +673,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "https://cloud.ryuan.link/api/v3/file/get/831/XBPQ.jar?sign=6gMiEgMMiuW8mEPID5C21xewDGSO6lf6MiM9-oAApSc%3D%3A0;md5;11F37D092DB963DDAB4B3B61607D473E",
+			"jar": "https://cloud.ryuan.link/api/v3/file/get/833/XBPQ.jar?sign=kkv1Ta8OEGp0-R6Burk2XPSwgjX-BUngj_SgJyq9NPY%3D%3A0;md5;645F617A7D1C289C3FE55195FFAD19B8",
 			"ext": {
 				"分类url": "https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
 				"分类": "电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"
@@ -1174,8 +1204,8 @@
 			"url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png"
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "live.ipv6.m3u",
@@ -1183,8 +1213,8 @@
 			"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png"
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "live.ipv6.local",
@@ -1192,8 +1222,8 @@
 			"url": "./lib/live.ipv6.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png"
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "live.fan",
@@ -1201,8 +1231,8 @@
 			"url": "https://mirror.ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png"
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "直播",
@@ -1210,15 +1240,15 @@
 			"playerType": 1,
 			"url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png"
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "TXT",
 			"type": 0,
 			"playerType": 1,
 			"url": "http://home.jundie.top:81/Cat/tv/live.txt",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 		},
 		{
@@ -1226,8 +1256,8 @@
 			"type": 1,
 			"playerType": 1,
 			"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 		},
 		{
@@ -1236,8 +1266,8 @@
 			"playerType": 1,
 			"url": "http://我不是.肥猫.live/TV/tvzb.txt",
 			"ua": "okhttp/3.12.13",
-			"epg": "https://proxy.api.030101.xyz/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://proxy.api.030101.xyz/https://epg.112114.xyz/logo/{name}.png"
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"group": "redirect",
