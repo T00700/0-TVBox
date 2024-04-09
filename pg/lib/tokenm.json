@@ -1,6 +1,6 @@
 {
     "use_internal_storage": false,
-    "token": "http://panel.ryuan.top/ali/token/99233926c8f84693b8618dde92512450",
+    "token": "http://64.64.242.137:4567/ali/token/c00941ff10ec42cab7177ab0e27ccb44",
     "open_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIwMzIwMGFhMjIyODg0YzY4YTAyMjFhYmYxZjY3ODU0MSIsImF1ZCI6IjczZTYxMTgzMWE3YzRkODdhYzQ5Yzg0ODFiZjlmMmM0IiwiZXhwIjoxNzE2OTUzMjc1LCJpYXQiOjE3MDkxNzcyNzUsImp0aSI6ImY5Y2I2NzEyYjNlMTRhYTNhNDg1MGI5YjkyZTllM2M1In0.YlZDD_KpKd6GTTtSvKWmRainbUyxg1JyLm2DlXHhd8rPfjJwrInjXs3ge3E6KQ2xyR-xZIFNd3PsCSthZ3rqgw",
     "open_api_url": "get|https://adrive.xdow.net/oauth/access_token",
     "oauth_client_id": "",
