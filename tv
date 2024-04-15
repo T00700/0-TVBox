@@ -1,25 +1,25 @@
 {
     "lives": [
         {
-            "name": "SAO0",
+            "name": "ITV",
             "type": 0,
-            "url": "https://xhdwc.tk/tvlive.txt",
-            "playerType": 1,
-            "ua": "okhttp/3.15",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+            "playerType": 1
         },
         {
             "name": "IPV6",
             "type": 0,
             "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-            "playerType": 1,
-            "ua": "okhttp/3.15",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "playerType": 1
+        },
+        {
+            "name": "XIUTAN",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+            "type": 0,
+            "url": "https://xhdwc.tk/xiutan.m3u"
         }
     ],
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1712494041762/fan.txt;md5;013794cda7f4898b65b8a7f7382cc5a1",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1713105104325/fan.txt;md5;08ae765676d7dffee6f7e363c0c22de1",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
@@ -50,8 +50,8 @@
             "quickSearch": 1,
             "changeable": 0,
             "ext": {
-                "aliToken": "http://64.64.242.137:4567/ali/token/c00941ff10ec42cab7177ab0e27ccb44",
-                "quarkCookie": "_UP_A4A_11_=wb9061d5549a416aae65fa7fe5256e14; cna=0Kh0GzWzSjoCASrvPXVoDeCs; isg=BEZGLfWmX_lizQsdjqpsTJ0IlzzIp4ph-5Uo1zBvfWlEM-ZNmDUEcSzCDy9am4J5; _UP_F7E_8D_=0z44HdIBxZYiRqPMj%2FZ1g4e2tNIi%2FpwZKNd9fxNMQOzIiMzkZQhRBzb%2BZL%2B%2BO5S0fafUsIjVkYhLHpvA%2Fhicy1HUTu2LBlCPom4qTWeMFqCgN55FQx3lIyu%2B1OsWIKjG1w4pOGWcZjvuo4m2jHof9eRj66wpeTPO4r7NBD%2F4wEE0IpjIBHWretgcndtvmRjON1%2F4YBxAXEcKzEB7sy%2FnvOHZ47Hvtvq2wLtchZ7GH2KZHru1xRmXkitDMrXGp4Mq96p4CY6W9u6Jhb7b0BdOueNucrWuSJCv%2BT0a2R2jNTzdldBvB7trVMH3IhYSoUw2AYTF7eNiF%2BU9DgASvb4Vfvosp%2BEFl7vny0TNscSZMOl8DcfixlwkYTpwSCY4564fHGA9cyxKste3pBRULSTR8JY7n3P6zUYaG%2BofGCzsMul3NGY6wl6lBISYJ2cSDS100Hjqhb3FcWuLwSSSdvGDxA%3D%3D; _UP_D_=pc; __pus=1ad4605eb1fe0e1508039d89ae4d1cc7AASoe/lxbpyoqTjeWOnw06Gy+QQbSQWrQgjTwtbTp9YZA/gVheawxhDsjLIHgxJZevEOvVat/wfWYGB0cPcJEP8k; __kp=97c7d430-dd28-11ee-8159-8f948d802f39; __kps=AATBFybICrgIJhbvxr6ZGRqA; __ktd=Jedm5mxXUyichne07SX1XA==; __uid=AATBFybICrgIJhbvxr6ZGRqA; __puus=c1208ffb078de5f93208b5d9bbab3597AATTVe6ew6yLQGi0xGsKPNIdKj6l2HmbHun7oCGfBGfX8lrbT9H8gKqQd7mLqcdOqVeshk/HZnPY2vFJtSn4OtoJ7FbKSf9UsSGYEiHc+W22G63Q06yKczUStgGbMxuumCivlvGztJrQ+ZBlYEDD7f7dbNiZx74PpAOSX3Um4z+x8Gl9qUd/qN1dhPZKMIgCZKdwK1uD9Hvw966UtTrUfFaN",
+                "aliToken": "tvfan/token.txt",
+                "quarkCookie": "tvfan/cookie.txt",
                 "from": "4k|auto|fhd",
                 "siteUrl": "https://api.wogg.xyz/",
                 "danMu": "弹"
@@ -70,8 +70,8 @@
             "key": "短剧",
             "name": "🌈上头┃短剧",
             "type": 3,
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
+            "api": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/上头短剧.js",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0
@@ -124,7 +124,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json"
+            "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/nmys.json"
         },
         {
             "key": "zxzj",
@@ -174,7 +174,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "https://www.czys01.com/"
+            "ext": "https://www.czys03.com/"
         },
         {
             "key": "csp_DiDuan",
@@ -296,8 +296,8 @@
             "key": "Jrsjs",
             "name": "⚽ Jrs┃球迷",
             "type": 3,
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/jrk.js",
+            "api": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/jrk.js",
             "style": {
                 "type": "list"
             },
@@ -309,8 +309,8 @@
             "key": "310js",
             "name": "⚽310┃看球",
             "type": 3,
-            "api": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/310直播.js",
+            "api": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/310直播.js",
             "style": {
                 "type": "list"
             },
@@ -329,7 +329,21 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/企鹅直播.json"
+            "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/企鹅直播.json"
+        },
+        {
+            "key": "酷奇",
+            "name": "🎤酷奇┃MV",
+            "type": 3,
+            "api": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/drpy2.min.js",
+            "ext": "https://152.32.170.60/fantaiying/dr_py/raw/branch/main/js/酷奇MV.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "MTV",
@@ -343,7 +357,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/MTV.json"
+            "ext": "https://152.32.170.60/fantaiying/fty/raw/branch/master/ext/MTV.json"
         },
         {
             "key": "csp_Bili",
@@ -387,67 +401,75 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto"
+            "ext": {
+                "quarkCookie": "tvfan/cookie.txt",
+                "from": "4k|auto|fhd"
+            }
         },
         {
-            "key": "zhaozy",
-            "name": "🔍找资源┃搜索",
-            "type": 3,
-            "api": "csp_Zhaozy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto$$$zhaoziyuan777$$$qqq111"
-        },
-        {
-            "key": "Upyunso",
-            "name": "🍱云搜┃搜索",
-            "type": 3,
-            "api": "csp_UpYun",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto"
-        },
-        {
-            "key": "Yisou",
-            "name": "🎯易搜┃搜索",
+            "key": "YiSo",
+            "name": "😹易搜┃搜索",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto$$$satoken=9981502b-f542-4e75-9a24-777adfcfafe5"
+            "changeable": 0,
+            "ext": {
+                "aliToken": "tvfan/token.txt",
+                "from": "4k|auto|fhd"
+            }
         },
         {
-            "key": "Alips",
-            "name": "📀盘搜┃搜索",
+            "key": "PanSou",
+            "name": "🦊盘搜┃搜索",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto"
+            "changeable": 0,
+            "ext": {
+                "aliToken": "tvfan/token.txt",
+                "from": "4k|auto|fhd"
+            }
+        },
+        {
+            "key": "UpYun",
+            "name": "😻Up搜┃搜索",
+            "type": 3,
+            "api": "csp_UpYun",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "aliToken": "tvfan/token.txt",
+                "from": "4k|auto|fhd"
+            }
         },
         {
             "key": "PanSearch",
-            "name": "🙀盘Search┃4k",
+            "name": "🙀盘Se┃搜索",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto"
+            "changeable": 0,
+            "ext": {
+                "aliToken": "tvfan/token.txt",
+                "from": "4k|auto|fhd"
+            }
         },
         {
             "key": "push_agent",
-            "name": "🍚手机┃推送",
+            "name": "🛴手机┃推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 0,
-            "ext": "http://74.48.121.184:4567/ali/token/99233926c8f84693b8618dde92512450---4k|fhd|auto"
+            "ext": {
+                "aliToken": "tvfan/token.txt",
+                "quarkCookie": "tvfan/cookie.txt",
+                "from": "4k|auto|fhd"
+            }
         }
     ],
     "doh": [
