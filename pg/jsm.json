@@ -1,5 +1,5 @@
 {
-	"spider": "https://cloud.ryuan.link/api/v3/file/get/841/pg.jar?sign=uehyKxB0nglpk1IyhnG1BnR5WM31I3t2b8lMUGYUEUw%3D%3A0;md5;63350ce21576e80ee520cefd4dc0401b",
+	"spider": "https://cloud.ryuan.link/api/v3/file/get/842/pg.jar?sign=t82wkZY49g5Tnr3UA9auLXFFnIlb395yt4c5M2QqZhk%3D%3A0;md5;6af352e5d62af9ec95b83c5857ae85a6",
 	"sites": [
 		{
 			"key": "豆瓣",
@@ -240,6 +240,17 @@
 			"ext": "./lib/tokenm.json$$$https://wogg.link/$$$proxy$$$1$$$./lib/wogg.json"
 		},
 		{
+			"key": "Wo4k",
+			"name": "玩偶4K|磁力",
+			"type": 3,
+			"api": "csp_Wo4k",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"
+		},
+		{
 			"key": "Wobg",
 			"name": "玩偶表哥|网盘",
 			"type": 3,
@@ -336,7 +347,7 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://ppxzy.net$$$proxy$$$1"
+			"ext": "./lib/tokenm.json$$$https://ppxzy.ink$$$proxy$$$1"
 		},
 		{
 			"key": "校长影视",
